@@ -4,17 +4,6 @@ using UnityEngine;
 
 public class RifleScript : Receiver
 {
-    public float baseDamage;
-    public int baseSetsPerFire;
-    public int baseShotsPerSet;
-    public float basePrecision;
-    public float baseFireRate;
-    public float baseRecoil;
-    public int baseCapacity;
-    public int baseLoadedAmmoCount;
-    public float baseReload;
-    public string baseType;
-
     public const int NUM_PARTS = 8;
     public AmmoType ammo;
     public Barrel barrel;

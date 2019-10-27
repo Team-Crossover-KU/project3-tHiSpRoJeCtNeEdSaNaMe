@@ -4,6 +4,18 @@ using UnityEngine;
 
 public abstract class Receiver : MonoBehaviour
 {
+
+    public float baseDamage;
+    public int baseSetsPerFire;
+    public int baseShotsPerSet;
+    public float basePrecision;
+    public float baseFireRate;
+    public float baseRecoil;
+    public int baseCapacity;
+    public int baseLoadedAmmoCount;
+    public float baseReload;
+    public string baseType;
+
     public float damage;
     public int setsPerFire;
     public int shotsPerSet;
