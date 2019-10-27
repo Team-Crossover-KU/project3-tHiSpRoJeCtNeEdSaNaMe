@@ -314,12 +314,12 @@ PrefabInstance:
     - target: {fileID: 7520480417376893693, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.73
       objectReference: {fileID: 0}
     - target: {fileID: 7520480417376893693, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 7520480417376893693, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
@@ -360,6 +360,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseDamage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseSetsPerFire
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseShotsPerSet
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: basePrecision
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseFireRate
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseRecoil
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseCapacity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseLoadedAmmoCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseReload
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: loadedAmmoCount
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9606e3674e995124c80b27ca18a7e6fe, type: 3}

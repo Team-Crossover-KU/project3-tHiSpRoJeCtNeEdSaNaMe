@@ -46,7 +46,7 @@ public class RifleScript : Receiver
         if (loadedAmmoCount > 0)
         {
             loadedAmmoCount--;
-            ammo.Fire(new Vector3(5, 0, 0));
+            ammo.Fire(new Vector3(5, 0, 0), this.transform.position);
             return true;
         }
         else

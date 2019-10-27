@@ -18,9 +18,9 @@ public class StandardProjectile : AmmoType
         
     }
 
-    public override void Fire(Vector3 newVelocity)
+    public override void Fire(Vector3 newVelocity, Vector3 Pos)
     {
-        projected = Instantiate(projectile);
+        projected = Instantiate(projectile, Pos, Quaternion.identity);
         projected.GetComponent<Rigidbody>().velocity = newVelocity;
     }
 }
