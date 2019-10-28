@@ -11,13 +11,13 @@ public class Character : MonoBehaviour {
     public bool hit = false;
     public float speed = 10.0f;
 
-    public Rigidbody2D rb;
+    public Rigidbody rb;
     public Transform tr;
 
     // Use this for initialization
     public virtual void Start () {
         maxHealth = health;
-        rb = this.GetComponent("Rigidbody2D") as Rigidbody2D;
+        rb = this.GetComponent("Rigidbody2D") as Rigidbody;
         tr = this.GetComponent("Transform") as Transform;
     }
 

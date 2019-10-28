@@ -68,6 +68,11 @@ public class RifleScript : Receiver
         return true;
     }
 
+    public override bool ADS()
+    {
+        return true;
+    }
+
     public override bool ReloadMag()
     {
         loadedAmmoCount = capacity;

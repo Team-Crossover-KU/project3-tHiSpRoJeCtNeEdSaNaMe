@@ -24,7 +24,7 @@ public abstract class Receiver : MonoBehaviour
     public int capacity;
     public int loadedAmmoCount;
     public float reload;
-    public string title;
+    public string title = "default";
 
     // Start is called before the first frame update
     public abstract void Start();
@@ -41,6 +41,8 @@ public abstract class Receiver : MonoBehaviour
     public abstract bool HoldFire();
 
     public abstract bool ReleaseHoldFire();
+
+    public abstract bool ADS();
 
     public abstract bool FireRecoil();
 

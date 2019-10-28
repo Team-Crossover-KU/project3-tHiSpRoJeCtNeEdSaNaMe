@@ -14,28 +14,27 @@ public class PlayerController : Character
     public float gravFast;
 
 
-    private float horizontalPrior = 0;
-    private float verticalPrior = 0;
+    private float rightLeftPrior = 0;
+    private float forwardBackPrior = 0;
     private float jumpPrior = 0;
-    private float lightPrior = 0;
-    private float heavyPrior = 0;
-    private float utilityPrior = 0;
+    private float firePrior = 0;
+    private float altFirePrior = 0;
+    private float aimPrior = 0;
     private float selectWeaponBackPrior = 0;
     private float selectWeaponForwardPrior = 0;
     private float selectPrior = 0;
     private float submitPrior = 0;
-    public int horizontalHeld = 0;
-    public int verticalHeld = 0;
+    public int rightLeftHeld = 0;
+    public int forwardBackHeld = 0;
     public int jumpHeld = 0;
-    public int lightHeld = 0;
-    public int heavyHeld = 0;
-    public int utilityHeld = 0;
+    public int fireHeld = 0;
+    public int altFireHeld = 0;
+    public int aimHeld = 0;
     public int selectWeaponBackHeld = 0;
     public int selectWeaponForwardHeld = 0;
     public int selectHeld = 0;
     public int submitHeld = 0;
 
-    public bool facingRight = true;
     public bool grounded = true;
 
     public bool attacking = false;
@@ -58,8 +57,6 @@ public class PlayerController : Character
     public Text WeaponTextUI;
 
     public int iFrames;
-    Animator anim;
-    SpriteRenderer appear;
 
     // Use this for initialization
     public override void Start()
@@ -67,17 +64,14 @@ public class PlayerController : Character
         base.Start();
         base.Start();
         jumpsRemaining = maxJump;
-        rb = this.GetComponent("Rigidbody2D") as Rigidbody2D;
-        anim = this.GetComponent("Animator") as Animator;
+        rb = this.GetComponent("Rigidbody") as Rigidbody;
         tr = this.GetComponent("Transform") as Transform;
-        appear = this.GetComponent("SpriteRenderer") as SpriteRenderer;
-        TimeComboUI.text = "ComboTime: " + timeCombo.ToString();
-        TimeCancelUI.text = "CancelTime: " + timeCancel.ToString();
-        attackStateUI.text = "AttackState: " + attackState.ToString();
+        //TimeComboUI.text = "ComboTime: " + timeCombo.ToString();
+        //TimeCancelUI.text = "CancelTime: " + timeCancel.ToString();
+        //attackStateUI.text = "AttackState: " + attackState.ToString();
         if (defaultWeapon != null)
         {
             equipedWeapon = defaultWeapon;
-            WeaponTextUI.text = equipedWeapon.title;
         }
         if (secondWeapon == null)
         {
@@ -144,37 +138,24 @@ public class PlayerController : Character
         // Check for movement and facing direction
         if (!attacking)
         {
-            float move = Input.GetAxisRaw("Horizontal");
-            rb.velocity = new Vector2(move * speed, rb.velocity.y);
+            
 
-            anim.SetFloat("speed", Mathf.Abs(move));
-            anim.SetFloat("vSpeed", rb.velocity.y);
-
-            if (move > 0 && !facingRight)
-                ChangeFacingDirection();
-            else if (move < 0 && facingRight)
-                ChangeFacingDirection();
         }
-        TimeComboUI.text = "ComboTime: " + timeCombo.ToString();
-        TimeCancelUI.text = "CancelTime: " + timeCancel.ToString();
-        PlayerHealthUI.text = "PlayerHealth: " + health.ToString();
-
+        
     }
 
     void WeaponSelect()
     {
         if (defaultWeapon != null)
         {
-
-
             if (weaponStyle == 0)
             {
                 if (selectWeaponBackHeld == 0 && selectWeaponForwardHeld == 0)
                 {
                     if (
-                                    Input.GetAxisRaw("LightAttack") > 0 ||
-                                    Input.GetAxisRaw("HeavyAttack") > 0 ||
-                                    Input.GetAxisRaw("Utility") > 0 ||
+                                    Input.GetAxisRaw("Fire") > 0 ||
+                                    Input.GetAxisRaw("AltFire") > 0 ||
+                                    Input.GetAxisRaw("ADS") > 0 ||
                                     (Input.GetAxisRaw("SelectWeaponBack") > 0 && equipedWeapon == secondWeapon) ||
                                     (Input.GetAxisRaw("SelectWeaponForward") > 0 && equipedWeapon == thirdWeapon)
                                     )
@@ -248,8 +229,8 @@ public class PlayerController : Character
 
                
             }
-            if (equipedWeapon.title != null)
-                WeaponTextUI.text = equipedWeapon.title;
+            //if (equipedWeapon.title != null)
+               // WeaponTextUI.text = equipedWeapon.title;
 
         }
     }
@@ -261,22 +242,22 @@ public class PlayerController : Character
         {
 
 
-            if (Input.GetAxisRaw("LightAttack") > 0)
+            if (Input.GetAxisRaw("Fire") > 0)
             {
-                //equipedWeapon.LightAttack(lightHeld);
+                equipedWeapon.Fire();
             }
-            if (Input.GetAxisRaw("HeavyAttack") > 0)
+            if (Input.GetAxisRaw("AltFire") > 0)
             {
 
-               // equipedWeapon.HeavyAttack(heavyHeld);
+                equipedWeapon.AltFire();
             }
-            if (Input.GetAxisRaw("Utility") > 0)
+            if (Input.GetAxisRaw("ADS") > 0)
             {
-                //equipedWeapon.Utility(utilityHeld);
+                equipedWeapon.ADS();
             }
 
         }
-        attackStateUI.text = "AttackState: " + attackState.ToString();
+        
     }
 
     // Called by weapon to interupt all other attacks
@@ -319,89 +300,68 @@ public class PlayerController : Character
     // Falling speed controls. Lower grav when holding up, visa versa for down
     void GravControl()
     {
-        if (Input.GetAxisRaw("Vertical") < 0)
+        if (Input.GetAxisRaw("Jump") < 0)
         {
-            rb.gravityScale = gravFast;
+           // rb.gravityScale = gravFast;
         }
 
         else if (Input.GetAxisRaw("Jump") > 0)
         {
-            rb.gravityScale = gravSlowed;
+            //rb.gravityScale = gravSlowed;
         }
 
         else
         {
-            rb.gravityScale = gravNormal;
+           // rb.gravityScale = gravNormal;
         }
     }
 
     // Call this when you want to change characters facing direction
     // helps to keep model and otherwise setup right.
-    void ChangeFacingDirection()
-    {
-        facingRight = !facingRight;
-        Vector3 scale = transform.localScale;
-        scale.x = scale.x * -1;
-        transform.localScale = scale;
-    }
 
 
     public void Movement(float horizontal, float vertical)
     {
-        if (facingRight)
-        {
-            rb.velocity = new Vector2(horizontal, vertical);
-        }
-        else
-        {
-            rb.velocity = new Vector2(-horizontal, vertical);
-        }
+        
     }
 
     public void Teleport(float horizontal, float vertical)
     {
-        if (facingRight)
-        {
-            transform.position = transform.position + new Vector3(horizontal, vertical, 0);
-        }
-        else
-        {
-            transform.position = transform.position + new Vector3(-horizontal, vertical, 0);
-        }
+        
     }
 
     public void Hover(bool ground, bool onOrOff, int time)
     {
         if (onOrOff)
         {
-            rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+            rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
             hoverTime = time;
         }
         else
         {
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
             hoverTime = 0;
         }
     }
 
     public void HeldCheck()
     {
-        if (horizontalPrior == Input.GetAxisRaw("Horizontal") && horizontalPrior != 0)
+        if (rightLeftPrior == Input.GetAxisRaw("RightLeft") && rightLeftPrior != 0)
         {
-            horizontalHeld = horizontalHeld + 1;
+            rightLeftHeld = rightLeftHeld + 1;
         }
         else
         {
-            horizontalHeld = 0;
+            rightLeftHeld = 0;
         }
 
-        if (verticalPrior == Input.GetAxisRaw("Vertical") && verticalPrior != 0)
+        if (forwardBackPrior == Input.GetAxisRaw("ForwardBack") && forwardBackPrior != 0)
         {
-            verticalHeld = verticalHeld + 1;
+            forwardBackHeld = forwardBackHeld + 1;
         }
         else
         {
-            verticalHeld = 0;
+            forwardBackHeld = 0;
         }
 
         if (jumpPrior == Input.GetAxisRaw("Jump") && jumpPrior != 0)
@@ -413,31 +373,31 @@ public class PlayerController : Character
             jumpHeld = 0;
         }
 
-        if (lightPrior == Input.GetAxisRaw("LightAttack") && lightPrior != 0)
+        if (firePrior == Input.GetAxisRaw("Fire") && firePrior != 0)
         {
-            lightHeld = lightHeld + 1;
+            fireHeld = fireHeld + 1;
         }
         else
         {
-            lightHeld = 0;
+            fireHeld = 0;
         }
 
-        if (heavyPrior == Input.GetAxisRaw("HeavyAttack") && heavyPrior != 0)
+        if (altFirePrior == Input.GetAxisRaw("AltFire") && altFirePrior != 0)
         {
-            heavyHeld = heavyHeld + 1;
+            altFireHeld = altFireHeld + 1;
         }
         else
         {
-            heavyHeld = 0;
+            altFireHeld = 0;
         }
 
-        if (utilityPrior == Input.GetAxisRaw("Utility") && utilityPrior != 0)
+        if (aimPrior == Input.GetAxisRaw("ADS") && aimPrior != 0)
         {
-            utilityHeld = utilityHeld + 1;
+            aimHeld = aimHeld + 1;
         }
         else
         {
-            utilityHeld = 0;
+            aimHeld = 0;
         }
 
         if (selectWeaponBackPrior == Input.GetAxisRaw("SelectWeaponBack") && selectWeaponBackPrior != 0)
@@ -476,12 +436,12 @@ public class PlayerController : Character
             submitHeld = 0;
         }
 
-        horizontalPrior = Input.GetAxisRaw("Horizontal");
-        verticalPrior = Input.GetAxisRaw("Vertical");
+        rightLeftPrior = Input.GetAxisRaw("RightLeft");
+        forwardBackPrior = Input.GetAxisRaw("ForwardBack");
         jumpPrior = Input.GetAxisRaw("Jump");
-        lightPrior = Input.GetAxisRaw("LightAttack");
-        heavyPrior = Input.GetAxisRaw("HeavyAttack");
-        utilityPrior = Input.GetAxisRaw("Utility");
+        firePrior = Input.GetAxisRaw("Fire");
+        altFirePrior = Input.GetAxisRaw("AltFire");
+        aimPrior = Input.GetAxisRaw("ADS");
         selectWeaponBackPrior = Input.GetAxisRaw("SelectWeaponBack");
         selectWeaponForwardPrior = Input.GetAxisRaw("SelectWeaponForward");
         selectPrior = Input.GetAxisRaw("Select");
@@ -560,11 +520,7 @@ public class PlayerController : Character
         if (iFrames > 0)
         {
             iFrames--;
-            appear.color = Color.yellow;
-        }
-        else
-            appear.color = Color.white;
-            
+        }      
     }
 
 
