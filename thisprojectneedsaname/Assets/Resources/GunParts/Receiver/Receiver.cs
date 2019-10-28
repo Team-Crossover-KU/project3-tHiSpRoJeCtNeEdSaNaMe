@@ -14,7 +14,6 @@ public abstract class Receiver : MonoBehaviour
     public int baseCapacity;
     public int baseLoadedAmmoCount;
     public float baseReload;
-    public string baseType;
 
     public float damage;
     public int setsPerFire;
@@ -25,7 +24,7 @@ public abstract class Receiver : MonoBehaviour
     public int capacity;
     public int loadedAmmoCount;
     public float reload;
-    public string type;
+    public string title;
 
     // Start is called before the first frame update
     public abstract void Start();

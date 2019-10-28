@@ -46,10 +46,10 @@ public class PlayerController : Character
     public int attackState = 0;
 
     public int weaponStyle;
-    public Weapon equipedWeapon;
-    public Weapon defaultWeapon;
-    public Weapon secondWeapon;
-    public Weapon thirdWeapon;
+    public Receiver equipedWeapon;
+    public Receiver defaultWeapon;
+    public Receiver secondWeapon;
+    public Receiver thirdWeapon;
 
     public Text TimeComboUI;
     public Text TimeCancelUI;
@@ -263,16 +263,16 @@ public class PlayerController : Character
 
             if (Input.GetAxisRaw("LightAttack") > 0)
             {
-                equipedWeapon.LightAttack(lightHeld);
+                //equipedWeapon.LightAttack(lightHeld);
             }
             if (Input.GetAxisRaw("HeavyAttack") > 0)
             {
 
-                equipedWeapon.HeavyAttack(heavyHeld);
+               // equipedWeapon.HeavyAttack(heavyHeld);
             }
             if (Input.GetAxisRaw("Utility") > 0)
             {
-                equipedWeapon.Utility(utilityHeld);
+                //equipedWeapon.Utility(utilityHeld);
             }
 
         }
@@ -284,9 +284,9 @@ public class PlayerController : Character
     {
         if (defaultWeapon != null)
         {
-            defaultWeapon.Interupt();
-            secondWeapon.Interupt();
-            thirdWeapon.Interupt();
+           // defaultWeapon.Interupt();
+           // secondWeapon.Interupt();
+            //thirdWeapon.Interupt();
         }
 
     }
@@ -494,12 +494,12 @@ public class PlayerController : Character
         if (collision.gameObject.tag == "PickUp")
         {
             collision.gameObject.transform.parent = tr;
-            collision.gameObject.GetComponent<Weapon>().PickUp();
+           // collision.gameObject.GetComponent<Receiver>().PickUp();
         }
 
     }
 
-    public void Equip(Weapon derp)
+    public void Equip(Receiver derp)
     {
         if (defaultWeapon == null)
         {
