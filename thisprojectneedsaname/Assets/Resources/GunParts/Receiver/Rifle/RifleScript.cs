@@ -70,6 +70,7 @@ public class RifleScript : Receiver
 
     public override bool ADS()
     {
+        sight.ADSToggle();
         return true;
     }
 
@@ -81,15 +82,15 @@ public class RifleScript : Receiver
 
     public override bool BuildGun()
     {
-        ammo = RollAmmo();
-        barrel = RollBarrel();
-        caliber = RollCaliber();
-        cyclicModifier = RollCyclicModifier();
+        ammo = Instantiate(RollAmmo(), this.transform);
+        barrel = Instantiate(RollBarrel(), this.transform);
+        caliber = Instantiate(RollCaliber(), this.transform);
+        cyclicModifier = Instantiate(RollCyclicModifier(), this.transform);
         cyclicModifier.Attach(this);
-        magazine = RollMagazine();
-        sight = RollSight();
-        stock = RollStock();
-        underBarrel = RollUnderBarrel();
+        magazine = Instantiate(RollMagazine(), this.transform);
+        sight = Instantiate(RollSight(), this.transform);
+        stock = Instantiate(RollStock(), this.transform);
+        underBarrel = Instantiate(RollUnderBarrel(), this.transform);
         underBarrel.Attach(this);
         return true;
     }

@@ -30,6 +30,6 @@ public class FullAuto : CyclicModifier
 
     public override void ReleaseHoldFire()
     {
-        
+        Debug.Log("Release");
     }
 }

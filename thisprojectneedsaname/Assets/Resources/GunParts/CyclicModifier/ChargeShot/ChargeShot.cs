@@ -30,6 +30,6 @@ public class ChargeShot : CyclicModifier
 
     public override void ReleaseHoldFire()
     {
-        
+        Debug.Log("Release");
     }
 }

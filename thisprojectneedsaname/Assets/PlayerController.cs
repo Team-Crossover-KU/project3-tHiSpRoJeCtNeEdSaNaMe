@@ -37,6 +37,9 @@ public class PlayerController : Character
 
     public bool grounded = true;
 
+    public bool holdFire = false;
+    public bool holdAltFire = false;
+    public bool holdADS = false;
     public bool attacking = false;
     public bool cancelable = true;
 
@@ -242,18 +245,37 @@ public class PlayerController : Character
         {
 
 
-            if (Input.GetAxisRaw("Fire") > 0)
+            if (Input.GetAxisRaw("Fire") == 1 && fireHeld == 0)
             {
                 equipedWeapon.Fire();
             }
-            if (Input.GetAxisRaw("AltFire") > 0)
+            else if (Input.GetAxisRaw("Fire") == 1 && fireHeld != 0)
+            {
+                equipedWeapon.HoldFire();
+                holdFire = true;
+                
+            }
+            else if (Input.GetAxisRaw("Fire") == 0 && holdFire)
+            {
+                equipedWeapon.ReleaseHoldFire();
+                holdFire = false;
+            }
+
+            if (Input.GetAxisRaw("AltFire") == 1 && altFireHeld == 0)
             {
 
                 equipedWeapon.AltFire();
             }
-            if (Input.GetAxisRaw("ADS") > 0)
+
+            if (Input.GetAxisRaw("ADS") == 1 && aimHeld == 0)
             {
                 equipedWeapon.ADS();
+            }
+ 
+            else if (Input.GetAxisRaw("Fire") == 0 && holdADS)
+            {
+                equipedWeapon.ReleaseHoldFire();
+                holdADS = false;
             }
 
         }
