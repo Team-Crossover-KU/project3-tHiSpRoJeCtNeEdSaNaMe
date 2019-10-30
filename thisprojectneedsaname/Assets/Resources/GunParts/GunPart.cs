@@ -84,4 +84,15 @@ public abstract class GunPart : MonoBehaviour
 
 
     }
+
+    public virtual float GetVelocityMod()
+    {
+        return 1;
+    }
+
+    public virtual void SetVelocityMod(float newMod)
+    {
+
+
+    }
 }

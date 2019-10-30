@@ -385,7 +385,7 @@ PrefabInstance:
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
       propertyPath: baseFireRate
-      value: 900
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
@@ -395,7 +395,7 @@ PrefabInstance:
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
       propertyPath: baseCapacity
-      value: 3
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
@@ -410,7 +410,7 @@ PrefabInstance:
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
       propertyPath: loadedAmmoCount
-      value: 30
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}
@@ -451,6 +451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: NUM_PARTS
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8540765063143095963, guid: 9606e3674e995124c80b27ca18a7e6fe,
+        type: 3}
+      propertyPath: baseVelocity
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 29413130177550513, guid: 9606e3674e995124c80b27ca18a7e6fe,
         type: 3}

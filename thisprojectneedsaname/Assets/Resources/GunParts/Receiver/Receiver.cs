@@ -14,6 +14,7 @@ public abstract class Receiver : MonoBehaviour
     public int baseCapacity;
     public int baseLoadedAmmoCount;
     public float baseReload;
+    public float baseVelocity;
 
     public float damage;
     public int setsPerFire;
@@ -24,6 +25,7 @@ public abstract class Receiver : MonoBehaviour
     public int capacity;
     public int loadedAmmoCount;
     public float reload;
+    public float velocity;
     public GunPart[] parts;
     public string title = "default";
 
@@ -138,6 +140,7 @@ public abstract class Receiver : MonoBehaviour
         recoil = CalculateRecoil();
         capacity = CalculateCapacity();
         reload = CalculateReload();
+        velocity = CalculateVelocity();
         return true;
 
     }
@@ -223,6 +226,16 @@ public abstract class Receiver : MonoBehaviour
             currentReload = parts[i].GetReloadMod() * currentReload;
         }
         return currentReload;
+    }
+
+    public float CalculateVelocity()
+    {
+        float currentVelocity = baseVelocity;
+        for (int i = 0; NUM_PARTS > i; i++)
+        {
+            currentVelocity = parts[i].GetVelocityMod() * currentVelocity;
+        }
+        return currentVelocity;
     }
 
 }
