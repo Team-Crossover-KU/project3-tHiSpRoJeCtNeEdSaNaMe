@@ -13,7 +13,7 @@ public class RifleScript : Receiver
     public Sight sight;
     public Stock stock;
     public UnderBarrel underBarrel;
-    public GunPart[] parts;
+   
 
     // Start is called before the first frame update
     public override void Start()
@@ -27,15 +27,16 @@ public class RifleScript : Receiver
     // Update is called once per frame
     public override void Update()
     {
-
+        
     }
 
     public override bool Fire()
     {
-        if (loadedAmmoCount > 0)
+        if (loadedAmmoCount > 0 && fireDelay == 0)
         {
             loadedAmmoCount--;
             ammo.Fire(new Vector3(5, 0, 0), this.transform.position);
+            fireDelay = baseFireDelay;
             return true;
         }
         else
@@ -95,9 +96,7 @@ public class RifleScript : Receiver
         return true;
     }
 
-    
-
-    public void CatalogParts()
+    public override void CatalogParts()
     {
         parts[0] = ammo;
         parts[1] = barrel;
@@ -109,101 +108,5 @@ public class RifleScript : Receiver
         parts[7] = underBarrel;
     }
 
-    public override bool CalculateStats()
-    {
-        CatalogParts();
-        damage = CalculateDamage();
-        setsPerFire = CalculateSetsPerFire();
-        shotsPerSet = CalculateShotsPerSet();
-        precision = CalculatePrecision();
-        fireRate = CalculateFireRate();
-        recoil = CalculateRecoil();
-        capacity = CalculateCapacity();
-        reload = CalculateReload();
-        return true;
-        
-    }
 
-    public float CalculateDamage()
-    {
-        float currentDamage = baseDamage;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentDamage = parts[i].GetDamageModifier() * currentDamage;
-        }
-        return currentDamage;
-    }
-
-    public int CalculateSetsPerFire()
-    {
-        int currentSets = baseSetsPerFire;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentSets = parts[i].GetSetsPerFireModifier() * currentSets;
-        }
-        return currentSets;
-    }
-
-    public int CalculateShotsPerSet()
-    {
-        int currentShots = baseShotsPerSet;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentShots = parts[i].GetShotsPerSetModifier() * currentShots;
-        }
-        return currentShots;
-    }
-
-    public float CalculatePrecision()
-    {
-        float currentPrecision = basePrecision;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentPrecision = parts[i].GetPrecisionMod() * currentPrecision;
-        }
-        return currentPrecision;
-    }
-
-    public float CalculateFireRate()
-    {
-        float currentFireRate = baseFireRate;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentFireRate = parts[i].GetFireRateMod() * currentFireRate;
-            Debug.Log(i);
-            Debug.Log(parts[i]);
-            Debug.Log(parts[i].GetFireRateMod());
-        }
-        return currentFireRate;
-    }
-
-    public float CalculateRecoil()
-    {
-        float currentRecoil = baseRecoil;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentRecoil = parts[i].GetRecoilMod() * currentRecoil;
-        }
-        return currentRecoil;
-    }
-
-    public int CalculateCapacity()
-    {
-        int currentCapacity = baseCapacity;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentCapacity = (int)(parts[i].GetCapacityMod() * currentCapacity);
-        }
-        return currentCapacity;
-    }
-
-    public float CalculateReload()
-    {
-        float currentReload = baseReload;
-        for (int i = 0; NUM_PARTS > i; i++)
-        {
-            currentReload = parts[i].GetReloadMod() * currentReload;
-        }
-        return currentReload;
-    }
 }
