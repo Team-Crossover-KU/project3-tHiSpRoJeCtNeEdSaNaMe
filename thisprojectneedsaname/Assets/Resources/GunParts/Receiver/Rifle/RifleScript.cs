@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RifleScript : Receiver
 {
-    public const int NUM_PARTS = 8;
+    new public const int NUM_PARTS = 8;
     public AmmoType ammo;
     public Barrel barrel;
     public Caliber caliber;
@@ -18,7 +18,7 @@ public class RifleScript : Receiver
     // Start is called before the first frame update
     public override void Start()
     {
-        parts = new GunPart[8];
+        parts = new GunPart[NUM_PARTS];
         BuildGun();
         CalculateStats();
         Fire();
