@@ -105,6 +105,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7713ec81ad7fa814f82568e6f7522f1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NUM_PARTS: 8
+  baseDamage: 0
+  baseSetsPerFire: 0
+  baseShotsPerSet: 0
+  basePrecision: 0
+  baseFireRate: 0
+  baseRecoil: 0
+  baseCapacity: 0
+  baseLoadedAmmoCount: 0
+  baseReload: 0
   damage: 20
   setsPerFire: 1
   shotsPerSet: 1
@@ -114,7 +124,10 @@ MonoBehaviour:
   capacity: 30
   loadedAmmoCount: 30
   reload: 5
-  Type: Normal
+  parts: []
+  title: default
+  baseFireDelay: 3000
+  fireDelay: 0
   ammo: {fileID: -3373207611797783133, guid: 5dc3cf7a2026c174dbf91950e3c91a04, type: 3}
   barrel: {fileID: -7341923663976937216, guid: 4c3e29fba139f484a916a090b7595a8f, type: 3}
   caliber: {fileID: 1305805376074184596, guid: fe192ab12cea8114296516e6af2da891, type: 3}
