@@ -138,6 +138,7 @@ public class PlayerController : Character
     public override void FixedUpdate()
     {
         base.FixedUpdate();
+        Movement(Input.GetAxisRaw("ForwardBack") * speed, Input.GetAxisRaw("RightLeft") * speed);
         // Check for movement and facing direction
         if (!grounded)
         {
@@ -337,9 +338,9 @@ public class PlayerController : Character
     // helps to keep model and otherwise setup right.
 
 
-    public void Movement(float horizontal, float vertical)
+    public void Movement(float forwardBack, float leftRight)
     {
-        
+        rb.velocity = new Quaternion(0,rb.rotation.y,0,rb.rotation.w) * new Vector3(leftRight, rb.velocity.y, forwardBack);
     }
 
     public void Teleport(float horizontal, float vertical)
