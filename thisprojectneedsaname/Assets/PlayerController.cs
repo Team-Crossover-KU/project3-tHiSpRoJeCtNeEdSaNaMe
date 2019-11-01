@@ -139,9 +139,9 @@ public class PlayerController : Character
     {
         base.FixedUpdate();
         // Check for movement and facing direction
-        if (!attacking)
+        if (!grounded)
         {
-            
+            rb.AddForce(Physics.gravity * 2);
 
         }
         
@@ -271,12 +271,7 @@ public class PlayerController : Character
             {
                 equipedWeapon.ADS();
             }
- 
-            else if (Input.GetAxisRaw("Fire") == 0 && holdADS)
-            {
-                equipedWeapon.ReleaseHoldFire();
-                holdADS = false;
-            }
+
 
         }
         
@@ -295,7 +290,7 @@ public class PlayerController : Character
     }
 
     // Check for collisions, currently used to check if on the ground.
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Hostile")
         {
@@ -311,8 +306,8 @@ public class PlayerController : Character
         {
             if (jumpsRemaining > 0)
             {
-                rb.velocity = new Vector2(rb.velocity.x, 0);
-                rb.AddForce(new Vector2(0, jumpForce));
+                rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+                rb.AddForce(new Vector3(0, jumpForce ,0));
                 grounded = false;
                 jumpsRemaining--;
             }

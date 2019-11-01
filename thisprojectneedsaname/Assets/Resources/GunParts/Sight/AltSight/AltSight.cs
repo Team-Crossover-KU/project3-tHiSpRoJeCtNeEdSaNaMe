@@ -23,6 +23,7 @@ public class AltSight : Sight
     public override void ADSToggle()
     {
         ADS = !ADS;
+        Debug.Log("ADS");
     }
 
     public override float GetFireRateMod()
