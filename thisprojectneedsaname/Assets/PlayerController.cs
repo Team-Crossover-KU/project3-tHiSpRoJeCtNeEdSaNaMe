@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : Character
 {
-   
+    public Camera cam;
     public int hoverTime = 0;
     int jumpsRemaining;
     public float jumpForce = 10.0f;
@@ -138,6 +138,7 @@ public class PlayerController : Character
     public override void FixedUpdate()
     {
         base.FixedUpdate();
+        Look();
         Movement(Input.GetAxisRaw("ForwardBack") * speed, Input.GetAxisRaw("RightLeft") * speed);
         // Check for movement and facing direction
         if (!grounded)
@@ -248,11 +249,15 @@ public class PlayerController : Character
 
             if (Input.GetAxisRaw("Fire") == 1 && fireHeld == 0)
             {
-                equipedWeapon.Fire();
+                Debug.Log(transform.rotation);
+                // Quaternion derp = Quaternion.Euler(0, transform.rotation.y, 0);
+                Quaternion derp = Quaternion.Euler(cam.transform.eulerAngles.x, transform.eulerAngles.y, 0);
+                equipedWeapon.Fire(transform.position, derp);
             }
             else if (Input.GetAxisRaw("Fire") == 1 && fireHeld != 0)
             {
-                equipedWeapon.HoldFire();
+                Quaternion derp = Quaternion.Euler(cam.transform.eulerAngles.x, transform.eulerAngles.y, 0);
+                equipedWeapon.HoldFire(transform.position, derp);
                 holdFire = true;
                 
             }
@@ -343,6 +348,13 @@ public class PlayerController : Character
         rb.velocity = new Quaternion(0,rb.rotation.y,0,rb.rotation.w) * new Vector3(leftRight, rb.velocity.y, forwardBack);
     }
 
+    public void Look()
+    {
+        //Debug.Log(Input.GetAxis("Mouse X"));
+        transform.Rotate(0, Input.GetAxis("Mouse X"), 0);
+        cam.transform.Rotate(-Input.GetAxis("Mouse Y"), 0, 0);
+    }
+
     public void Teleport(float horizontal, float vertical)
     {
         
@@ -350,6 +362,7 @@ public class PlayerController : Character
 
     public void Hover(bool ground, bool onOrOff, int time)
     {
+        /*
         if (onOrOff)
         {
             rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
@@ -360,6 +373,7 @@ public class PlayerController : Character
             rb.constraints = RigidbodyConstraints.FreezeRotation;
             hoverTime = 0;
         }
+        */
     }
 
     public void HeldCheck()

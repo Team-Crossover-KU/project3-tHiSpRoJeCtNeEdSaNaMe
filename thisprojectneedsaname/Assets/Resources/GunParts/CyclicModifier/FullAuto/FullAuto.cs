@@ -23,9 +23,9 @@ public class FullAuto : CyclicModifier
         return fireRateMod;
     }
 
-    public override void HoldFire()
+    public override void HoldFire(Vector3 position ,Quaternion angle)
     {
-        receiver.Fire();
+        receiver.Fire(position,angle);
     }
 
     public override void ReleaseHoldFire()

@@ -17,7 +17,7 @@ public abstract class CyclicModifier : GunPart
         
     }
 
-    public abstract void HoldFire();
+    public abstract void HoldFire(Vector3 position, Quaternion angle);
 
     public abstract void ReleaseHoldFire();
 

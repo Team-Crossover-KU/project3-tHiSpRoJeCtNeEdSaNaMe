@@ -21,7 +21,6 @@ public class RifleScript : Receiver
         parts = new GunPart[NUM_PARTS];
         BuildGun();
         CalculateStats();
-        Fire();
     }
 
     // Update is called once per frame
@@ -30,12 +29,12 @@ public class RifleScript : Receiver
         
     }
 
-    public override bool Fire()
+    public override bool Fire(Vector3 positon, Quaternion angle)
     {
         if (loadedAmmoCount > 0 && fireDelay == 0)
         {
             loadedAmmoCount--;
-            ammo.Fire(new Vector3(0, 0, velocity), this.transform.position, this.transform.parent.transform.rotation);
+            ammo.Fire(new Vector3(0, 0, velocity), positon, angle);
             fireDelay = baseFireDelay;
             return true;
         }
@@ -51,9 +50,9 @@ public class RifleScript : Receiver
         return true;
     }
 
-    public override bool HoldFire()
+    public override bool HoldFire(Vector3 position, Quaternion angle)
     {
-        cyclicModifier.HoldFire();
+        cyclicModifier.HoldFire(position, angle);
         return true;
     }
 

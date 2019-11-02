@@ -22,5 +22,6 @@ public class AltProjectile : AmmoType
     {
         projected = Instantiate(projectile, Pos, Quaternion.identity);
         projected.GetComponent<Rigidbody>().velocity = angle * newVelocity;
+        Debug.Log(angle);
     }
 }

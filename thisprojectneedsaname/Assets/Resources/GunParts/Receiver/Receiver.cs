@@ -53,13 +53,13 @@ public abstract class Receiver : MonoBehaviour
     }
 
 
-    public abstract bool Fire();
+    public abstract bool Fire(Vector3 position, Quaternion angle);
 
     public abstract bool ReloadMag();
 
     public abstract bool AltFire();
 
-    public abstract bool HoldFire();
+    public abstract bool HoldFire(Vector3 position, Quaternion angle);
 
     public abstract bool ReleaseHoldFire();
 
