@@ -20,10 +20,12 @@ public class PlayerNav : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(navAgent.transform.position != TargetObject.transform.position)
         {
             navAgent.SetDestination(TargetObject.transform.position);
         }
+        
     }
     
 }
