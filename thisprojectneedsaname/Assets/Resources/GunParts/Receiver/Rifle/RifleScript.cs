@@ -34,7 +34,7 @@ public class RifleScript : Receiver
         if (loadedAmmoCount > 0 && fireDelay == 0)
         {
             loadedAmmoCount--;
-            ammo.Fire(new Vector3(0, 0, velocity), positon, angle);
+            ammo.Fire(new Vector3(0, 0, velocity), positon, angle, precision);
             fireDelay = baseFireDelay;
             return true;
         }

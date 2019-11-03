@@ -19,10 +19,12 @@ public class AltProjectile : AmmoType
         
     }
 
-    public override void Fire(Vector3 newVelocity, Vector3 Pos, Quaternion angle)
+    public override void Fire(Vector3 newVelocity, Vector3 Pos, Quaternion angle, float spread)
     {
+        float xSpread = Random.Range(-spread, spread);
+        float ySpread = Random.Range(-spread, spread);
         projected = Instantiate(projectile, Pos, Quaternion.identity);
-        projected.GetComponent<Rigidbody>().velocity = angle * newVelocity;
+        projected.GetComponent<Rigidbody>().velocity = angle * Quaternion.Euler(ySpread, xSpread, 0) * newVelocity;
         projected.GetComponent<ProjectileController>().SetDamage(damage);
         Debug.Log(angle);
     }
