@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileController : MonoBehaviour
 {
     public int lifeTime;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +31,23 @@ public class ProjectileController : MonoBehaviour
         }
     }
 
-    void setLifeTime(int newLife)
+    public void SetLifeTime(int newLife)
     {
         lifeTime = newLife;
+    }
+
+    public void SetDamage(int newDamage)
+    {
+        damage = newDamage;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Hostile")
+        {
+            other.GetComponent<Character>().ChangeHealth(-damage);
+            Destroy(gameObject);
+        }
+            
     }
 }

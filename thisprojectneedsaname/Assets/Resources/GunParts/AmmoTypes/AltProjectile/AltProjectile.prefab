@@ -46,3 +46,4 @@ MonoBehaviour:
   projectile: {fileID: 5946094181393800054, guid: 49a8b4f4cc1adc34b9e10b30f347ed03,
     type: 3}
   projected: {fileID: 0}
+  damage: 20

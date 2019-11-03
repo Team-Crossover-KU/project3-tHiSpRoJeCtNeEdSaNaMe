@@ -6,6 +6,7 @@ public class StandardProjectile : AmmoType
 {
     public GameObject projectile;
     public GameObject projected;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class StandardProjectile : AmmoType
     public override void Fire(Vector3 newVelocity, Vector3 Pos, Quaternion angle)
     {
         projected = Instantiate(projectile, Pos, Quaternion.identity);
-        projected.GetComponent<Rigidbody>().velocity = angle * newVelocity ;
+        projected.GetComponent<Rigidbody>().velocity = angle * newVelocity;
+        projected.GetComponent<ProjectileController>().SetDamage(damage);
         Debug.Log(angle);
     }
 }
