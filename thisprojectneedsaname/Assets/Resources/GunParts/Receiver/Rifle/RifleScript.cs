@@ -16,7 +16,12 @@ public class RifleScript : Receiver
     public int fireDamage;
 
 
-    // Start is called before the first frame update
+    /**
+   * @pre: N/A.
+   * @post: Gun should be set up for use by player.
+   * @param: None.
+   * @return: None.
+   */
     public override void Start()
     {
         parts = new GunPart[NUM_PARTS];
@@ -30,6 +35,12 @@ public class RifleScript : Receiver
         
     }
 
+    /**
+   * @pre: CalculateStats function should be called on a fully built gun first .
+   * @post: A shot should be produced if ammo can be deducted successfully and it is not cooling down from prior shot, nothing otherwise.
+   * @param: None.
+   * @return: Did at least one shot get produced.
+   */
     public override bool Fire(Vector3 positon, Quaternion angle)
     {
         if (fireDelay == 0)
@@ -58,41 +69,84 @@ public class RifleScript : Receiver
         }
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Calls stock's recoil function, a dummy function for now.
+   * @param: None.
+   * @return: Stub, should return if gun recoils correctly.
+   */
     public override bool FireRecoil()
     {
         stock.Recoil();
         return true;
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Calls the cyclicModifier's HoldFire function.
+   * @param: None.
+   * @return: Stub for now, should return if cyclicModifier's HoldFire function returns correctly.
+   */
     public override bool HoldFire(Vector3 position, Quaternion angle)
     {
         cyclicModifier.HoldFire(position, angle);
         return true;
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Calls the cyclicModifier's ReleaseHoldFire function.
+   * @param: None.
+   * @return: Stub for now, should return if cyclicModifier's ReleaseHoldFire function returns correctly.
+   */
     public override bool ReleaseHoldFire()
     {
         cyclicModifier.ReleaseHoldFire();
         return true;
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Calls the underBarrel's AltFire function.
+   * @param: None.
+   * @return: Stub for now, should return if underBarrel's AltFire function returns correctly.
+   */
     public override bool AltFire()
     {
         underBarrel.AltFire();
         return true;
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Calls the sight's ADS function.
+   * @param: None.
+   * @return: Stub for now, should return if sight's ADS function returns correctly.
+   */
     public override bool ADS()
     {
         sight.ADSToggle();
         return true;
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Gun's loaded ammo should be refilled.
+   * @param: None.
+   * @return: Stub for now, should return if reload occurs with no issues function returns correctly.
+   */
     public override bool ReloadMag()
     {
         loadedAmmoCount = capacity;
         return true;
     }
+
+    /**
+   * @pre: None.
+   * @post: Gun's parts should be rolled, ready for stats to be calculated.
+   * @param: None.
+   * @return: Stub for now, should return if build occurs with no issues function returns correctly.
+   */
 
     public override bool BuildGun()
     {
@@ -109,6 +163,12 @@ public class RifleScript : Receiver
         return true;
     }
 
+    /**
+   * @pre: Gun is built.
+   * @post: parts array should be populated.
+   * @param: None.
+   * @return: None.
+   */
     public override void CatalogParts()
     {
         parts[0] = ammo;

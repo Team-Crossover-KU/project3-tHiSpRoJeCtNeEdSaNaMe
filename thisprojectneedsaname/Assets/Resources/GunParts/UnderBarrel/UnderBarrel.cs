@@ -18,6 +18,13 @@ public abstract class UnderBarrel : GunPart
     }
 
     public abstract void AltFire();
+
+    /**
+   * @pre: N/A.
+   * @post: sets the UnderBarrel's receiver to input. Used by some UnderBarrels
+   * @param: New receiver for UnderBarrel.
+   * @return: None.
+   */
     public void Attach(Receiver mainBody)
     {
         receiver = mainBody;

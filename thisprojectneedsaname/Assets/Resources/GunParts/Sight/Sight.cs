@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Sight : GunPart
 {
-
+    //If the user is aiming down the sights
     public bool ADS = false;
 
     // Start is called before the first frame update

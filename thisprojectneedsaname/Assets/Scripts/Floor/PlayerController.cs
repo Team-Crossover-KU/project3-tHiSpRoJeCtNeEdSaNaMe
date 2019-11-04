@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class PlayerController : Character
 {
+    // Camera attached to player. Needed for Aiming
     public Camera cam;
+    // Value for hover function. Unused Currently
     public int hoverTime = 0;
+    // Value for jumping, 1 allows for no air jumps
     int jumpsRemaining;
+    // Force upwards used for jumping
     public float jumpForce = 10.0f;
-    public float gravNormal;
-    public float gravSlowed;
-    public float gravFast;
-
 
     private float rightLeftPrior = 0;
     private float forwardBackPrior = 0;
@@ -37,31 +37,52 @@ public class PlayerController : Character
     public int selectHeld = 0;
     public int submitHeld = 0;
 
+    // If the player is on the ground
     public bool grounded = true;
 
+    //If the player is currently holding the fire button
     public bool holdFire = false;
+    //If the player is currently holding the altFire button
     public bool holdAltFire = false;
+    //If the player is currently holding the ADS button
     public bool holdADS = false;
+    //If the player is currently holding the holdReload button
     public bool holdReload = false;
+    //If the player is currently holding attacking
     public bool attacking = false;
+    //If current action can be interupted. Not used currently
     public bool cancelable = true;
 
+    //Timer for cancel mechanics, Not currently used
     public float timeCombo = -1f;
+    //Timer for cancel mechanics, Not currently used
     public float timeCancel = -1f;
+    //Timer for cancel mechanics, Not currently used
     public int attackState = 0;
 
+    //Switch to control how player swaps between weapons
     public int weaponStyle;
+    //Weapon player is currently using
     public Receiver equipedWeapon;
+    //Starting Receiver of player/ first weapon
     public Receiver defaultWeapon;
+    //Second Receiver player has equiped
     public Receiver secondWeapon;
+    //Third Receiver player has equiped
     public Receiver thirdWeapon;
 
+    // Text for use with UI. Not currently Used.
     public Text TimeComboUI;
+    // Text for use with UI. Not currently Used.
     public Text TimeCancelUI;
+    // Text for use with UI. Not currently Used.
     public Text attackStateUI;
+    // Text for use with UI. Not currently Used.
     public Text PlayerHealthUI;
+    // Text for use with UI. Not currently Used.
     public Text WeaponTextUI;
 
+    // Timer for time player is unable to be hurt after taking damage
     public int iFrames;
 
     // Use this for initialization
@@ -89,7 +110,12 @@ public class PlayerController : Character
         }
     }
 
-    // Update is called once per frame
+    /**
+   * @pre: N/A.
+   * @post: Player input should be parsed.
+   * @param: None.
+   * @return: None.
+   */
     public override void Update()
     {
         base.Update();
@@ -137,7 +163,12 @@ public class PlayerController : Character
 
     }
 
-    //Run physics related stuffs here
+    /**
+   * @pre: N/A.
+   * @post: {hysics related requirements should be parsed.
+   * @param: None.
+   * @return: None.
+   */
     public override void FixedUpdate()
     {
         base.FixedUpdate();
@@ -152,6 +183,12 @@ public class PlayerController : Character
         
     }
 
+    /**
+   * @pre: All slots for the players Receiver's are filled.
+   * @post: Player should swap to appropriate item if button to swap Receiver is pressed.
+   * @param: None.
+   * @return: None.
+   */
     void WeaponSelect()
     {
         if (defaultWeapon != null)
@@ -243,7 +280,12 @@ public class PlayerController : Character
         }
     }
 
-    // Calls attack from weapon
+    /**
+   * @pre: N/A.
+   * @post: Commands relating to equiped Receiver should be parsed.
+   * @param: None.
+   * @return: None.
+   */
     void Attack()
     {
         if (defaultWeapon != null)
@@ -291,7 +333,12 @@ public class PlayerController : Character
         
     }
 
-    // Called by weapon to interupt all other attacks
+    /**
+   * @pre: N/A.
+   * @post: None currently. When implemented should allow for attacks to interupt eachother
+   * @param: None.
+   * @return: None.
+   */
     public void Interupt()
     {
         if (defaultWeapon != null)
@@ -303,7 +350,12 @@ public class PlayerController : Character
 
     }
 
-    // Check for collisions, currently used to check if on the ground.
+    /**
+   * @pre: N/A.
+   * @post: Resets players jumps when touching the ground or an enemy. Jump on enemies heads for style.
+   * @param: None.
+   * @return: None.
+   */
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Hostile")
@@ -313,7 +365,12 @@ public class PlayerController : Character
         }
     }
 
-    //Adds upwards velocity and sets grounded false.
+    /**
+   * @pre: N/A.
+   * @post: if player has jumps left, should be sent upwards.
+   * @param: None.
+   * @return: None.
+   */
     void Jump()
     {
         if (Input.GetAxis("Jump") > 0 && jumpHeld == 0)
@@ -328,7 +385,12 @@ public class PlayerController : Character
         }
     }
 
-    // Falling speed controls. Lower grav when holding up, visa versa for down
+    /**
+   * @pre: N/A.
+   * @post: Not currently implemented. After implementation should change player fall speed based on input
+   * @param: None.
+   * @return: None.
+   */
     void GravControl()
     {
         if (Input.GetAxisRaw("Jump") < 0)
@@ -347,15 +409,24 @@ public class PlayerController : Character
         }
     }
 
-    // Call this when you want to change characters facing direction
-    // helps to keep model and otherwise setup right.
 
-
+    /**
+   * @pre: N/A.
+   * @post: Player's movement should be realitive to where they are looking.
+   * @param: forwardBack and leftRight are how far forward and left the player should move.
+   * @return: None.
+   */
     public void Movement(float forwardBack, float leftRight)
     {
         rb.velocity = new Quaternion(0,rb.rotation.y,0,rb.rotation.w) * new Vector3(leftRight, rb.velocity.y, forwardBack);
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Player should look following the mouse.
+   * @param: None.
+   * @return: None.
+   */
     public void Look()
     {
         //Debug.Log(Input.GetAxis("Mouse X"));
@@ -363,11 +434,23 @@ public class PlayerController : Character
         cam.transform.Rotate(-Input.GetAxis("Mouse Y"), 0, 0);
     }
 
-    public void Teleport(float horizontal, float vertical)
+    /**
+   * @pre: N/A.
+   * @post: Not yet implemented. Once implemented should teleport player to area described
+   * @param: pos is area to teleport to.
+   * @return: None.
+   */
+    public void Teleport(Vector3 pos)
     {
         
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Not yet implemented. Once implemented should let player hover in air for a second
+   * @param: ground is if player is on the ground, onOrOff should control if you are currently hovering, time should be how long the hover lasts.
+   * @return: None.
+   */
     public void Hover(bool ground, bool onOrOff, int time)
     {
         /*
@@ -384,6 +467,12 @@ public class PlayerController : Character
         */
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Variables for checking if a button is held should be updated
+   * @param: None.
+   * @return: None.
+   */
     public void HeldCheck()
     {
         if (rightLeftPrior == Input.GetAxisRaw("RightLeft") && rightLeftPrior != 0)
@@ -499,6 +588,12 @@ public class PlayerController : Character
 
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Not yet implemented. Once implemented should pickup item collided with
+   * @param: other object hit.
+   * @return: None.
+   */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "PickUp")
@@ -509,6 +604,12 @@ public class PlayerController : Character
 
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Change current default Receiver to the input
+   * @param: derp is new default Weapon.
+   * @return: None.
+   */
     public void Equip(Receiver derp)
     {
         if (defaultWeapon == null)
@@ -528,6 +629,12 @@ public class PlayerController : Character
         }
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Adds input to player health value as long as the player is not invulnerable
+   * @param: change is value to be added to health.
+   * @return: None.
+   */
     public override void ChangeHealth(float change)
     {
         if (iFrames <= 0)
@@ -546,6 +653,12 @@ public class PlayerController : Character
         }
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Adds input to player health value as long as the player is not invulnerable
+   * @param: change is value to be added to health, saving frames is time the player is invulnerable after health is changed.
+   * @return: None.
+   */
     public virtual void ChangeHealth(float change, int savingFrames)
     {
         if (iFrames <= 0)
@@ -565,6 +678,12 @@ public class PlayerController : Character
 
     }
 
+    /**
+   * @pre: N/A.
+   * @post: Subtracts timer for player's invulnerable status
+   * @param: None.
+   * @return: None.
+   */
     public virtual void Invulnerability()
     {
         if (iFrames > 0)
