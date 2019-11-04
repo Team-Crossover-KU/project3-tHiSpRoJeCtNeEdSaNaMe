@@ -1,0 +1,21 @@
+<map id="Receiver.CalculateStats" name="Receiver.CalculateStats">
+<area shape="rect" id="node1" title=" " alt="" coords="5,233,165,260"/>
+<area shape="rect" id="node2" href="$class_receiver.html#a873503e6efcca4175270a757aa6ef6ea" title=" " alt="" coords="225,5,405,32"/>
+<area shape="rect" id="node3" href="$class_receiver.html#a1ad429464e16468d6e560cb386b13926" title=" " alt="" coords="226,56,403,83"/>
+<area shape="rect" id="node5" href="$class_receiver.html#a779ae5a279842eedd9f77bea2941b30e" title=" " alt="" coords="225,107,404,133"/>
+<area shape="rect" id="node7" href="$class_receiver.html#a0d855d19f843fdbe16b05c1dfc6047da" title=" " alt="" coords="223,157,406,184"/>
+<area shape="rect" id="node9" href="$class_receiver.html#ad1abe0c602bdb2081f894ceca251c249" title=" " alt="" coords="232,208,397,235"/>
+<area shape="rect" id="node11" href="$class_receiver.html#aa73b195a6651779e48a6ae07bdd5f2c4" title=" " alt="" coords="230,259,399,285"/>
+<area shape="rect" id="node13" href="$class_receiver.html#a1b25d89df37fe2189d39ee1ec23ffba8" title=" " alt="" coords="215,309,414,336"/>
+<area shape="rect" id="node15" href="$class_receiver.html#a93be7b56b9e3d69e4e61a4e0ee018401" title=" " alt="" coords="213,360,416,387"/>
+<area shape="rect" id="node17" href="$class_receiver.html#af263a376677651423388a5fbe2e11902" title=" " alt="" coords="227,411,403,437"/>
+<area shape="rect" id="node19" href="$class_receiver.html#a1d08924d9e17a7a9528e949e7e9c6847" title=" " alt="" coords="239,461,390,488"/>
+<area shape="rect" id="node4" href="$class_gun_part.html#a761c604535f23635a6f7b7377b7bacae" title=" " alt="" coords="477,56,665,83"/>
+<area shape="rect" id="node6" href="$class_gun_part.html#a87e2f49c9369f3accfff6226967fe090" title=" " alt="" coords="487,107,656,133"/>
+<area shape="rect" id="node8" href="$class_gun_part.html#a11400e7042e97280391da9383b02a34c" title=" " alt="" coords="484,157,659,184"/>
+<area shape="rect" id="node10" href="$class_gun_part.html#a492b2c7c8e4f79a7c925da60464a1346" title=" " alt="" coords="493,208,649,235"/>
+<area shape="rect" id="node12" href="$class_gun_part.html#a533b82f2854725ac9ba6c328339286f8" title=" " alt="" coords="491,259,651,285"/>
+<area shape="rect" id="node14" href="$class_gun_part.html#af4a0ef7df1aa3587df859c8c45f7b900" title=" " alt="" coords="467,309,676,336"/>
+<area shape="rect" id="node16" href="$class_gun_part.html#a7eb450788e262bdc378eac813b47dce5" title=" " alt="" coords="464,360,679,387"/>
+<area shape="rect" id="node18" href="$class_gun_part.html#a3c35cb655d424d4d6cfadebfd46987c2" title=" " alt="" coords="488,411,655,437"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="TMPro.TMP_InputField.OnUpdateSelected" name="TMPro.TMP_InputField.OnUpdateSelected">
+<area shape="rect" id="node1" title=" " alt="" coords="5,415,221,456"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___input_field.html#af972523ea46f02204c7471f54ccd61b6" title=" " alt="" coords="269,71,488,112"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a9ef972ef2261f10383fd4a900a9c3449" title=" " alt="" coords="288,297,469,339"/>
+<area shape="rect" id="node9" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a1ac4c595e5f686b371e27745b0a2c99b" title="Update the visual text Text." alt="" coords="808,327,1007,368"/>
+<area shape="rect" id="node12" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ae7246b94a4be46fb34a132db2cbcbf98" title=" " alt="" coords="543,422,753,449"/>
+<area shape="rect" id="node13" href="$class_t_m_pro_1_1_t_m_p___input_field.html#abf60ea8cc14546e9e0ca9f88db152b13" title=" " alt="" coords="285,524,473,565"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___input_field.html#adba4a85e3c7777a5573ed2ff139e4517" title="Submit the input field&#39;s text." alt="" coords="554,5,742,47"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ac3305c44c797f1f8c62d81851e8f118c" title=" " alt="" coords="554,71,742,112"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a3d675445c819058d84bfa8b8889fb119" title="Append the specified text to the end of the current." alt="" coords="547,137,749,163"/>
+<area shape="rect" id="node7" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ad8ccac2088400564ddeac6201c0aba03" title=" " alt="" coords="536,187,760,214"/>
+<area shape="rect" id="node8" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a817cdcf34d7711275ffa8643b02a73fa" title="Move to the end of the current line of text." alt="" coords="554,239,742,280"/>
+<area shape="rect" id="node11" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ad0c485854da42ede16b5127258120c40" title="Move to the start of the current line of text." alt="" coords="554,356,742,397"/>
+<area shape="rect" id="node10" href="$class_t_m_pro_1_1_t_m_p___text.html#a93c463ff2bb3b846a468f3d1764bdef4" title="Function to force the regeneration of the text object." alt="" coords="1055,327,1247,368"/>
+</map>

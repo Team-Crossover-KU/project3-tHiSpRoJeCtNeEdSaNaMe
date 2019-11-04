@@ -1,0 +1,8 @@
+<map id="TMPro.TMP_InputField.OnDisable" name="TMPro.TMP_InputField.OnDisable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,111,224,138"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___input_field.html#af972523ea46f02204c7471f54ccd61b6" title=" " alt="" coords="272,71,491,112"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a1ac4c595e5f686b371e27745b0a2c99b" title="Update the visual text Text." alt="" coords="282,136,481,177"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___input_field.html#adba4a85e3c7777a5573ed2ff139e4517" title="Submit the input field&#39;s text." alt="" coords="541,5,729,47"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ac3305c44c797f1f8c62d81851e8f118c" title=" " alt="" coords="541,71,729,112"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_t_m_p___text.html#a93c463ff2bb3b846a468f3d1764bdef4" title="Function to force the regeneration of the text object." alt="" coords="539,136,731,177"/>
+</map>

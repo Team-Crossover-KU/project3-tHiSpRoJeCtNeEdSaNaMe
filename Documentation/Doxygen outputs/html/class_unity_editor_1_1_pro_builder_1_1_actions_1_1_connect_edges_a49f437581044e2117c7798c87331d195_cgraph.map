@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.ConnectEdges.DoAction" name="UnityEditor.ProBuilder.Actions.ConnectEdges.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_editor.html#af4c668cdfe80cc365a0b4245a8a8cdcc" title="Rebuild the mesh wireframe and selection caches." alt="" coords="256,5,431,47"/>
+</map>

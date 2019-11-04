@@ -1,0 +1,8 @@
+<map id="UnityEditor.ProBuilder.Actions.ShrinkSelection.DoAction" name="UnityEditor.ProBuilder.Actions.ShrinkSelection.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,104,208,145"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_editor.html#af4c668cdfe80cc365a0b4245a8a8cdcc" title="Rebuild the mesh wireframe and selection caches." alt="" coords="277,5,452,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a23ee4fa5815f9ca18e3b0c1646a56458" title="Set the edge selection for this mesh. Also sets the face and vertex selection to match." alt="" coords="261,71,468,112"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a97a433d48049fc9477def1465f17c57f" title="Set the face selection for this mesh. Also sets the vertex and edge selection to match." alt="" coords="262,136,467,177"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a76a3bc1234c21b274cad932f3b3f9df2" title="Sets the selected vertices array. Clears SelectedFaces and SelectedEdges arrays." alt="" coords="256,201,473,243"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a668d5e19ed7a3cd92a5b6346bf16caba" title="Clears selected face, edge, and vertex arrays. You do not need to call this when setting an individua..." alt="" coords="521,71,704,112"/>
+</map>

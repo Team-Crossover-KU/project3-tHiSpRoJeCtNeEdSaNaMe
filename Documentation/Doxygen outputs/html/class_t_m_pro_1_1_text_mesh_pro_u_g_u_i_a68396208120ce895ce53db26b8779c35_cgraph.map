@@ -1,0 +1,11 @@
+<map id="TMPro.TextMeshProUGUI.Awake" name="TMPro.TextMeshProUGUI.Awake">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,220,105"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___text.html#a4828101c6dd0459b8879cc13d9405e35" title="Internal function used to load the default settings of text objects." alt="" coords="273,5,467,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___style_sheet.html#a653c12d4d1759a054f7f37a2d0b33924" title="Static Function to load the Default Style Sheet." alt="" coords="273,71,467,112"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#aedbf6c9aaf6c104ac7c81e85d99498b4" title="Method which derived classes need to override to load Font Assets." alt="" coords="268,136,472,177"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#ae9871315cb95b1211de6c61f7500947b" title="Get the padding value for the currently assigned material." alt="" coords="520,37,717,79"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_t_m_p___text.html#a17ad19c4cf9c5ad4485b208eb0a37bf2" title="Method used to find and cache references to the Underline and Ellipsis characters." alt="" coords="523,103,714,144"/>
+<area shape="rect" id="node8" href="$class_t_m_pro_1_1_t_m_p___font_asset.html#ade90a42615b002bb0c31b06d497df510" title=" " alt="" coords="523,168,715,209"/>
+<area shape="rect" id="node9" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#af75e3f762ed8c445cc4ad100903b5cf1" title=" " alt="" coords="521,233,717,275"/>
+<area shape="rect" id="node7" href="$class_t_m_pro_1_1_t_m_p___font_asset_utilities.html#a603d82b9eb3d85f7f3ed3b2a5234a592" title="Returns the text element (character) for the given unicode value taking into consideration the reques..." alt="" coords="765,103,971,144"/>
+</map>

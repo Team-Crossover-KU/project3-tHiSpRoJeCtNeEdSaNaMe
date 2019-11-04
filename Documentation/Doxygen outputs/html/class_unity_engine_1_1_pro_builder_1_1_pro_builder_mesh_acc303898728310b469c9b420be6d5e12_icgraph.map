@@ -1,0 +1,8 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.GetCoincidentVertices" name="UnityEngine.ProBuilder.ProBuilderMesh.GetCoincidentVertices">
+<area shape="rect" id="node1" title="Get a list of vertices that are coincident to any of the vertices in the passed vertices parameter." alt="" coords="583,75,811,116"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_weld_vertices.html#a0dd5223cb4ceda3b14fa7ed4c2929352" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="320,8,523,49"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_element_group.html#a41defb806d8fd236fc4e6a1d2cea1197" title=" " alt="" coords="320,75,523,116"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#aed06b89f8a82ac29a0f1962d6ec5203e" title="Sets the passed vertices as being considered coincident by the ProBuilderMesh." alt="" coords="308,140,535,181"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_weld_vertices.html#aa470fcdc44e048000e08dc776f8c3cb2" title="Implement the extra settings GUI for your action in this method." alt="" coords="31,5,234,47"/>
+<area shape="rect" id="node5" href="$class_unity_editor_1_1_pro_builder_1_1_mesh_and_element_selection.html#a3f29a5f6f01c8350b27e0a4cdc02ff38" title=" " alt="" coords="5,71,260,127"/>
+</map>

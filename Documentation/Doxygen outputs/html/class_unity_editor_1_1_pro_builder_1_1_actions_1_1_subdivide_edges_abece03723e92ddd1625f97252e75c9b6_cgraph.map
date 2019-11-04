@@ -1,0 +1,13 @@
+<map id="UnityEditor.ProBuilder.Actions.SubdivideEdges.OnSettingsGUI" name="UnityEditor.ProBuilder.Actions.SubdivideEdges.OnSettingsGUI">
+<area shape="rect" id="node1" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,104,211,145"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_subdivide_edges.html#abc8310a0566b2b7758471cdb59ffbae9" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="259,104,461,145"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a17ffb69e5c2eb62539ce1570b067a4ac" title="Recalculates mesh attributes: normals, collisions, UVs, tangents, and colors." alt="" coords="523,5,703,47"/>
+<area shape="rect" id="node6" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_editor.html#af4c668cdfe80cc365a0b4245a8a8cdcc" title="Rebuild the mesh wireframe and selection caches." alt="" coords="525,71,700,112"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a23ee4fa5815f9ca18e3b0c1646a56458" title="Set the edge selection for this mesh. Also sets the face and vertex selection to match." alt="" coords="509,136,716,177"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a002304bd6a6491a0702fee01b4cf1769" title="Rebuild the mesh positions and submeshes. If vertex count matches new positions array the existing at..." alt="" coords="523,201,703,243"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#afa107be8165b2617bc37cfac621ff533" title=" " alt="" coords="783,5,963,47"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="1050,5,1230,47"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a668d5e19ed7a3cd92a5b6346bf16caba" title="Clears selected face, edge, and vertex arrays. You do not need to call this when setting an individua..." alt="" coords="782,136,965,177"/>
+<area shape="rect" id="node10" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#a3e4e58651752b11d920990f4694e657f" title="Create submeshes from a set of faces. Currently only Quads and Triangles are supported." alt="" coords="764,201,983,243"/>
+<area shape="rect" id="node11" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#aea4a56123f219339841e7412c7fae891" title="Create new Submesh." alt="" coords="1031,201,1249,243"/>
+</map>

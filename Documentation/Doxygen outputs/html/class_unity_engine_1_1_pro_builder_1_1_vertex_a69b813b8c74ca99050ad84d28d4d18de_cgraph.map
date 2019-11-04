@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.Vertex.SetMesh" name="UnityEngine.ProBuilder.Vertex.SetMesh">
+<area shape="rect" id="node1" title="Replace mesh values with vertex array. Mesh is cleared during this function, so be sure to set the tr..." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a726a6e4ab3aada195cec70ae482d69fd" title="Allocate and fill all attribute arrays. This method will fill all arrays, regardless of whether or no..." alt="" coords="256,5,459,47"/>
+</map>

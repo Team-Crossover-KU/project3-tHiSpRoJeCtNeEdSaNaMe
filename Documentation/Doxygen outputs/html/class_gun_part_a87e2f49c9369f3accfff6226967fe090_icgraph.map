@@ -1,0 +1,6 @@
+<map id="GunPart.GetFireRateMod" name="GunPart.GetFireRateMod">
+<area shape="rect" id="node1" title=" " alt="" coords="601,5,771,32"/>
+<area shape="rect" id="node2" href="$class_receiver.html#a779ae5a279842eedd9f77bea2941b30e" title=" " alt="" coords="375,5,553,32"/>
+<area shape="rect" id="node3" href="$class_receiver.html#a05e544bc0737608ce350bb6643bd2a58" title=" " alt="" coords="167,5,327,32"/>
+<area shape="rect" id="node4" href="$class_rifle_script.html#a766b85a41957d4ff2e106559d1ced3dd" title=" " alt="" coords="5,5,119,32"/>
+</map>

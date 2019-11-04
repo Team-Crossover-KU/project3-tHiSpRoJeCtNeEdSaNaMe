@@ -1,0 +1,7 @@
+<map id="UnderBarrel" name="UnderBarrel">
+<area shape="rect" id="node1" title=" " alt="" coords="114,403,205,495"/>
+<area shape="rect" id="node4" href="$class_fore_grip.html" title=" " alt="" coords="5,543,148,635"/>
+<area shape="rect" id="node5" href="$class_grenade_launcher.html" title=" " alt="" coords="172,543,315,635"/>
+<area shape="rect" id="node2" href="$class_gun_part.html" title=" " alt="" coords="68,131,251,355"/>
+<area shape="rect" id="node3" title=" " alt="" coords="104,5,215,83"/>
+</map>

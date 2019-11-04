@@ -1,0 +1,4 @@
+<map id="SimpleHealthBar.UpdateTextColor" name="SimpleHealthBar.UpdateTextColor">
+<area shape="rect" id="node1" title="Updates the color of the text associated with the bar." alt="" coords="228,5,417,47"/>
+<area shape="rect" id="node2" href="$class_simple_health_bar_editor.html#ad22f85ff0058a2021421c4fb7a90c6d4" title=" " alt="" coords="5,5,180,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_unity_editor_1_1_settings_management_1_1_i_settings_repository.html" title="A settings repository is responsible for implementing the saving and loading of values." alt="" coords="5,39,223,80"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_settings_management_1_1_project_settings_repository.html" title="A settings repository that stores data to a JSON file." alt="" coords="271,5,488,47"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_settings_management_1_1_user_settings_repository.html" title="A settings repository backed by the UnityEditor.EditorPrefs class." alt="" coords="271,71,488,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.GetTangents" name="UnityEngine.ProBuilder.ProBuilderMesh.GetTangents">
+<area shape="rect" id="node1" title="Get the tangents applied to the mesh, or create and cache them if not yet initialized." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="233,5,413,47"/>
+</map>

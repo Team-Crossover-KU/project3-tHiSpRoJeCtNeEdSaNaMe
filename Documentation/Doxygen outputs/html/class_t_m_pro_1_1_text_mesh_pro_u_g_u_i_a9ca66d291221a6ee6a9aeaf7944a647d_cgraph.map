@@ -1,0 +1,4 @@
+<map id="TMPro.TextMeshProUGUI.SetSharedMaterials" name="TMPro.TextMeshProUGUI.SetSharedMaterials">
+<area shape="rect" id="node1" title="Method used to assign new materials to the text and sub text objects." alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#ae9871315cb95b1211de6c61f7500947b" title="Get the padding value for the currently assigned material." alt="" coords="249,5,447,47"/>
+</map>

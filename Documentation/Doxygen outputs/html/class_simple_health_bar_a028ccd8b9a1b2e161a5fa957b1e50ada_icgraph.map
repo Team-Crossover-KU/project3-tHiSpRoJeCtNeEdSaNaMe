@@ -1,0 +1,6 @@
+<map id="SimpleHealthBar.UpdateBar" name="SimpleHealthBar.UpdateBar">
+<area shape="rect" id="node1" title="Updates the health bar with the current and max values." alt="" coords="284,78,468,105"/>
+<area shape="rect" id="node2" href="$class_simple_health_bar___spaceship_example_1_1_player_health.html#a9dbeb071f290ed820cb0b6034005eab4" title=" " alt="" coords="11,5,230,47"/>
+<area shape="rect" id="node3" href="$class_simple_health_bar_editor.html#ad22f85ff0058a2021421c4fb7a90c6d4" title=" " alt="" coords="33,71,208,112"/>
+<area shape="rect" id="node4" href="$class_simple_health_bar___spaceship_example_1_1_player_health.html#a49659bd53a18a4348c05e234c970ae40" title=" " alt="" coords="5,136,236,177"/>
+</map>

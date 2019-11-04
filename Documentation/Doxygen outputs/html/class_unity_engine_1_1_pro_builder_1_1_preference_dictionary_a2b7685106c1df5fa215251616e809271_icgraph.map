@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.PreferenceDictionary.GetFloat" name="UnityEngine.ProBuilder.PreferenceDictionary.GetFloat">
+<area shape="rect" id="node1" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,5,499,47"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a2fb701dbb89c6208566d952570ea7ab8" title="&quot;Generic&quot; Get preference for key function." alt="" coords="5,5,228,47"/>
+</map>

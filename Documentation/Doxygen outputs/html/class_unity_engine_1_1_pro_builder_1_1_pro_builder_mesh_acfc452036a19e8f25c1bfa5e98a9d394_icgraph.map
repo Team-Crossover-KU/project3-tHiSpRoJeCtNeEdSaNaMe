@@ -1,0 +1,9 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.GetSelectedFaces" name="UnityEngine.ProBuilder.ProBuilderMesh.GetSelectedFaces">
+<area shape="rect" id="node1" title="Get a copy of the selected face array." alt="" coords="508,104,715,145"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_conform_face_normals.html#aa28119f487c28e7edbd229f73c0257c0" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,5,460,47"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_flip_face_normals.html#a7497a0195b9d1bb730e8764ffeea039b" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="257,71,459,112"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_grow_selection.html#a469551bdfc26c3ace57b9dd16647d758" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="257,136,459,177"/>
+<area shape="rect" id="node6" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_extrude_faces.html#a33cb66e768c95356d89a224a0e898882" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="257,201,459,243"/>
+<area shape="rect" id="node5" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_grow_selection.html#a89e54b5cc03b98a0e4199a21aa4bf062" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,136,208,177"/>
+<area shape="rect" id="node7" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_extrude_faces.html#a84475a51a0c45e95939e28090f90c32b" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,201,208,243"/>
+</map>

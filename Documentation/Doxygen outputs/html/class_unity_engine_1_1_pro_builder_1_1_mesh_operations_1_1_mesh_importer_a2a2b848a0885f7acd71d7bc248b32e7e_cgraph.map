@@ -1,0 +1,9 @@
+<map id="UnityEngine.ProBuilder.MeshOperations.MeshImporter.Import" name="UnityEngine.ProBuilder.MeshOperations.MeshImporter.Import">
+<area shape="rect" id="node1" title="Import mesh data from a GameObject&#39;s MeshFilter.sharedMesh and MeshRenderer.sharedMaterials." alt="" coords="5,69,213,111"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a3dac3369c26af626faf82495bf0c8d08" title="Reset all the attribute arrays on this object." alt="" coords="575,71,755,112"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_shared_vertex.html#a8b44842eb9431c7c198d4d08247db3ba" title="Create a new array of SharedVertex objects by comparing points in the passed positions collection." alt="" coords="261,8,516,49"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a94b394d305bafab9d31f7a064f3a94ef" title="Set the vertex element arrays on this mesh." alt="" coords="299,128,479,169"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a668d5e19ed7a3cd92a5b6346bf16caba" title="Clears selected face, edge, and vertex arrays. You do not need to call this when setting an individua..." alt="" coords="815,71,997,112"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_shared_vertex.html#a00d7e440ca00a5333db4d539f10a63ed" title="Create a new SharedVertex from an int array." alt="" coords="565,5,766,47"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a726a6e4ab3aada195cec70ae482d69fd" title="Allocate and fill all attribute arrays. This method will fill all arrays, regardless of whether or no..." alt="" coords="564,136,767,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.Edge" name="UnityEngine.ProBuilder.Edge">
+<area shape="rect" id="node1" title="An edge connecting two vertices. May point to an index in the vertices or the sharedIndexes array (lo..." alt="" coords="5,145,196,516"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,5,169,97"/>
+</map>

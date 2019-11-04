@@ -1,0 +1,33 @@
+<map id="RifleScript.Start" name="RifleScript.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,487,119,513"/>
+<area shape="rect" id="node2" href="$class_rifle_script.html#a177d943704e5d2e46371a879a21e87c4" title=" " alt="" coords="177,259,316,285"/>
+<area shape="rect" id="node13" href="$class_receiver.html#a05e544bc0737608ce350bb6643bd2a58" title=" " alt="" coords="167,715,327,741"/>
+<area shape="rect" id="node3" href="$class_under_barrel.html#a994543038d8337c2415ce159ff86d474" title=" " alt="" coords="410,5,542,32"/>
+<area shape="rect" id="node4" href="$class_cyclic_modifier.html#a52819f30bb95ca128cbf742a14c4a214" title=" " alt="" coords="403,56,549,83"/>
+<area shape="rect" id="node5" href="$class_receiver.html#a40e6d83ef75ba4e2f4c8f609d033b5e0" title=" " alt="" coords="409,107,543,133"/>
+<area shape="rect" id="node6" href="$class_receiver.html#a814daa7caac7da325759861c82267d97" title=" " alt="" coords="411,157,541,184"/>
+<area shape="rect" id="node7" href="$class_receiver.html#ab7eb0565b7c8618ef0cc663f642d5c6f" title=" " alt="" coords="407,208,545,235"/>
+<area shape="rect" id="node8" href="$class_receiver.html#a1fa6d43415d6e27598732b3eb9c71319" title=" " alt="" coords="387,259,565,285"/>
+<area shape="rect" id="node9" href="$class_receiver.html#a56def19a311c2c5a9a73efcc4e0799f8" title=" " alt="" coords="399,309,553,336"/>
+<area shape="rect" id="node10" href="$class_receiver.html#ae5394390834012e795d79bfbde49920f" title=" " alt="" coords="413,360,539,387"/>
+<area shape="rect" id="node11" href="$class_receiver.html#a43beca580fda3096dfe69c9532584892" title=" " alt="" coords="411,411,541,437"/>
+<area shape="rect" id="node12" href="$class_receiver.html#a023667c1564d68b4ee357d5d4783fb7e" title=" " alt="" coords="393,461,559,488"/>
+<area shape="rect" id="node14" href="$class_receiver.html#a873503e6efcca4175270a757aa6ef6ea" title=" " alt="" coords="386,512,566,539"/>
+<area shape="rect" id="node15" href="$class_receiver.html#a1ad429464e16468d6e560cb386b13926" title=" " alt="" coords="387,563,565,589"/>
+<area shape="rect" id="node17" href="$class_receiver.html#a779ae5a279842eedd9f77bea2941b30e" title=" " alt="" coords="387,613,565,640"/>
+<area shape="rect" id="node19" href="$class_receiver.html#a0d855d19f843fdbe16b05c1dfc6047da" title=" " alt="" coords="385,664,567,691"/>
+<area shape="rect" id="node21" href="$class_receiver.html#ad1abe0c602bdb2081f894ceca251c249" title=" " alt="" coords="393,715,559,741"/>
+<area shape="rect" id="node23" href="$class_receiver.html#aa73b195a6651779e48a6ae07bdd5f2c4" title=" " alt="" coords="391,765,561,792"/>
+<area shape="rect" id="node25" href="$class_receiver.html#a1b25d89df37fe2189d39ee1ec23ffba8" title=" " alt="" coords="377,816,575,843"/>
+<area shape="rect" id="node27" href="$class_receiver.html#a93be7b56b9e3d69e4e61a4e0ee018401" title=" " alt="" coords="375,867,577,893"/>
+<area shape="rect" id="node29" href="$class_receiver.html#af263a376677651423388a5fbe2e11902" title=" " alt="" coords="388,917,564,944"/>
+<area shape="rect" id="node31" href="$class_receiver.html#a1d08924d9e17a7a9528e949e7e9c6847" title=" " alt="" coords="401,968,551,995"/>
+<area shape="rect" id="node16" href="$class_gun_part.html#a761c604535f23635a6f7b7377b7bacae" title=" " alt="" coords="639,563,827,589"/>
+<area shape="rect" id="node18" href="$class_gun_part.html#a87e2f49c9369f3accfff6226967fe090" title=" " alt="" coords="648,613,817,640"/>
+<area shape="rect" id="node20" href="$class_gun_part.html#a11400e7042e97280391da9383b02a34c" title=" " alt="" coords="645,664,820,691"/>
+<area shape="rect" id="node22" href="$class_gun_part.html#a492b2c7c8e4f79a7c925da60464a1346" title=" " alt="" coords="655,715,811,741"/>
+<area shape="rect" id="node24" href="$class_gun_part.html#a533b82f2854725ac9ba6c328339286f8" title=" " alt="" coords="653,765,813,792"/>
+<area shape="rect" id="node26" href="$class_gun_part.html#af4a0ef7df1aa3587df859c8c45f7b900" title=" " alt="" coords="628,816,837,843"/>
+<area shape="rect" id="node28" href="$class_gun_part.html#a7eb450788e262bdc378eac813b47dce5" title=" " alt="" coords="625,867,840,893"/>
+<area shape="rect" id="node30" href="$class_gun_part.html#a3c35cb655d424d4d6cfadebfd46987c2" title=" " alt="" coords="649,917,816,944"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SimpleHealthBar_SpaceshipExample.GameManager.ShowDeathScreen" name="SimpleHealthBar_SpaceshipExample.GameManager.ShowDeathScreen">
+<area shape="rect" id="node1" title=" " alt="" coords="521,5,795,47"/>
+<area shape="rect" id="node2" href="$class_simple_health_bar___spaceship_example_1_1_player_health.html#a050f35353ba23fd5b3ef0ca6a1f8b1d5" title=" " alt="" coords="284,5,473,47"/>
+<area shape="rect" id="node3" href="$class_simple_health_bar___spaceship_example_1_1_player_health.html#a49659bd53a18a4348c05e234c970ae40" title=" " alt="" coords="5,5,236,47"/>
+</map>

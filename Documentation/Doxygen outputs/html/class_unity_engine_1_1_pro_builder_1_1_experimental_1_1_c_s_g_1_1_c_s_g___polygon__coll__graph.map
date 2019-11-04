@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon" name="UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon">
+<area shape="rect" id="node1" title="Represents a polygon face with an arbitrary number of vertices." alt="" coords="5,233,245,355"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_experimental_1_1_c_s_g_1_1_c_s_g___plane.html" title="Represents a plane in 3d space." alt="" coords="5,5,245,171"/>
+</map>

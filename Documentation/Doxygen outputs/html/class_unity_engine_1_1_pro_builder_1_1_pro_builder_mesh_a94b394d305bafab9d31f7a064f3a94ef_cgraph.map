@@ -1,0 +1,6 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.SetVertices" name="UnityEngine.ProBuilder.ProBuilderMesh.SetVertices">
+<area shape="rect" id="node1" title="Set the vertex element arrays on this mesh." alt="" coords="5,39,185,80"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a3dac3369c26af626faf82495bf0c8d08" title="Reset all the attribute arrays on this object." alt="" coords="245,5,425,47"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a726a6e4ab3aada195cec70ae482d69fd" title="Allocate and fill all attribute arrays. This method will fill all arrays, regardless of whether or no..." alt="" coords="233,71,436,112"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a668d5e19ed7a3cd92a5b6346bf16caba" title="Clears selected face, edge, and vertex arrays. You do not need to call this when setting an individua..." alt="" coords="484,5,667,47"/>
+</map>

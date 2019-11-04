@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.ExportAsset.DoAction" name="UnityEditor.ProBuilder.Actions.ExportAsset.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_asset.html#a51ad8be964146879c6b1b36fef95f6bc" title="Export meshes to a Unity asset." alt="" coords="256,5,476,47"/>
+</map>

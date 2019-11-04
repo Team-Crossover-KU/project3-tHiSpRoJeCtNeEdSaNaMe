@@ -1,0 +1,9 @@
+<map id="UnityEngine.ProBuilder.SceneSelection" name="UnityEngine.ProBuilder.SceneSelection">
+<area shape="rect" id="node1" title=" " alt="" coords="357,844,554,1112"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,425,204,503"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html" title="This component is responsible for storing all the data necessary for editing and compiling UnityEngin..." alt="" coords="228,147,453,781"/>
+<area shape="rect" id="node4" title=" " alt="" coords="285,13,396,90"/>
+<area shape="rect" id="node5" href="$struct_unity_engine_1_1_pro_builder_1_1_edge.html" title="An edge connecting two vertices. May point to an index in the vertices or the sharedIndexes array (lo..." alt="" coords="477,286,668,642"/>
+<area shape="rect" id="node6" title=" " alt="" coords="505,5,641,97"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_face.html" title="A face is composed of a set of triangles, and a material. &#160;&#160;Triangle indexes may point to the same ve..." alt="" coords="767,213,957,715"/>
+</map>

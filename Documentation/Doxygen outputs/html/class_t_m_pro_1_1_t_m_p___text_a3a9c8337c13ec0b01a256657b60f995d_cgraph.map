@@ -1,0 +1,4 @@
+<map id="TMPro.TMP_Text.SetCharArray" name="TMPro.TMP_Text.SetCharArray">
+<area shape="rect" id="node1" title="Character array containing the text to be displayed." alt="" coords="5,13,211,39"/>
+<area shape="rect" id="node2" href="$struct_t_m_pro_1_1_t_m_p___rich_text_tag_stack.html#a6c92524cb7b0b4bb77b43f594839f806" title="Function to clear and reset stack to first item." alt="" coords="259,5,467,47"/>
+</map>

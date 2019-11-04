@@ -1,0 +1,6 @@
+<map id="GunPart.GetPrecisionMod" name="GunPart.GetPrecisionMod">
+<area shape="rect" id="node1" title=" " alt="" coords="605,5,780,32"/>
+<area shape="rect" id="node2" href="$class_receiver.html#a0d855d19f843fdbe16b05c1dfc6047da" title=" " alt="" coords="375,5,557,32"/>
+<area shape="rect" id="node3" href="$class_receiver.html#a05e544bc0737608ce350bb6643bd2a58" title=" " alt="" coords="167,5,327,32"/>
+<area shape="rect" id="node4" href="$class_rifle_script.html#a766b85a41957d4ff2e106559d1ced3dd" title=" " alt="" coords="5,5,119,32"/>
+</map>

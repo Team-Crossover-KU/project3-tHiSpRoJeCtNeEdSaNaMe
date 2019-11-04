@@ -1,0 +1,4 @@
+<map id="TMPro.TMP_SubMeshUI.OnDisable" name="TMPro.TMP_SubMeshUI.OnDisable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,235,39"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___update_registry.html#abdd464c5a6919c3383c4d8fa19fe60df" title="Function to unregister elements which no longer require a rebuild." alt="" coords="283,5,521,47"/>
+</map>

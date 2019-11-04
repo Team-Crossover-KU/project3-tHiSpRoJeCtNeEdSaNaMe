@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.OpenSmoothingEditor.DoAction" name="UnityEditor.ProBuilder.Actions.OpenSmoothingEditor.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_smooth_group_editor.html#a326bdaccd90098bd7f01dccb06ecc5f3" title=" " alt="" coords="260,5,532,47"/>
+</map>

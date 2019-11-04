@@ -1,0 +1,6 @@
+<map id="GunPart.GetReloadMod" name="GunPart.GetReloadMod">
+<area shape="rect" id="node1" title=" " alt="" coords="592,5,752,32"/>
+<area shape="rect" id="node2" href="$class_receiver.html#aa73b195a6651779e48a6ae07bdd5f2c4" title=" " alt="" coords="375,5,544,32"/>
+<area shape="rect" id="node3" href="$class_receiver.html#a05e544bc0737608ce350bb6643bd2a58" title=" " alt="" coords="167,5,327,32"/>
+<area shape="rect" id="node4" href="$class_rifle_script.html#a766b85a41957d4ff2e106559d1ced3dd" title=" " alt="" coords="5,5,119,32"/>
+</map>

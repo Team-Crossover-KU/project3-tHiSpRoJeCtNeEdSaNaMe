@@ -1,0 +1,9 @@
+<map id="UnityEngine.ProBuilder.PreferenceDictionary.Get&lt; T &gt;" name="UnityEngine.ProBuilder.PreferenceDictionary.Get&lt; T &gt;">
+<area shape="rect" id="node1" title="&quot;Generic&quot; Get preference for key function." alt="" coords="5,169,228,211"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#af664faac065cfbd67c972e9361793634" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,5,499,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a151428614eb8d0aaf9c50b0cca694ac3" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,71,499,112"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a2b7685106c1df5fa215251616e809271" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,136,499,177"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a326bb8b13e6d417e667a0ee98c0ec215" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,201,499,243"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a136b3deff4b0740ffa0719eeaf6a18b9" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,267,499,308"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_preference_dictionary.html#a9c7aa736f7dc7662e7ecee000a3ca978" title="Fetch a value from the stored preferences. If key is not found, a default value is returned." alt="" coords="276,332,499,373"/>
+</map>

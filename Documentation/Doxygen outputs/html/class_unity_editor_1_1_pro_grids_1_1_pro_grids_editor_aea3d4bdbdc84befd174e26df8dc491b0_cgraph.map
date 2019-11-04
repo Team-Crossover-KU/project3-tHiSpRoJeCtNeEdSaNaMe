@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProGrids.ProGridsEditor.SceneToolbarIsExtended" name="UnityEditor.ProGrids.ProGridsEditor.SceneToolbarIsExtended">
+<area shape="rect" id="node1" title="True if ProGrids is open and the toolbar is in an extended state." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_grids_1_1_pro_grids_editor.html#ab1fcb1f75a1a0d6176d5321356fa5b8d" title="Is ProGrids open?" alt="" coords="288,5,493,47"/>
+</map>

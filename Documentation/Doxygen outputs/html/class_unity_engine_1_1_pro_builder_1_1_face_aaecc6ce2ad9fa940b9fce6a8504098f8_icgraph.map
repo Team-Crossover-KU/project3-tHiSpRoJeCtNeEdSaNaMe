@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProBuilder.Face.IsQuad" name="UnityEngine.ProBuilder.Face.IsQuad">
+<area shape="rect" id="node1" title="Is this face representable as quad?" alt="" coords="247,5,440,47"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_face.html#a5198cbb94155a8fbefe3b2adb282dccd" title="Convert a 2 triangle face to a quad representation." alt="" coords="5,5,199,47"/>
+</map>

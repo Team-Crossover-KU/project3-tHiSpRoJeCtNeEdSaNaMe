@@ -1,0 +1,89 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="235,411,365,437"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___input_field.html" title="Editable text input field." alt="" coords="503,335,657,361"/>
+<area shape="rect" id="node3" title=" " alt="" coords="245,664,355,691"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_t_m_p___dropdown.html" title="A standard dropdown that presents a list of options when clicked, of which one can be chosen." alt="" coords="503,588,657,615"/>
+<area shape="rect" id="node5" title=" " alt="" coords="243,107,357,133"/>
+<area shape="rect" id="node6" title=" " alt="" coords="27,411,106,437"/>
+<area shape="rect" id="node7" href="$class_t_m_pro_1_1_t_m_p___sub_mesh_u_i.html" title=" " alt="" coords="217,461,383,488"/>
+<area shape="rect" id="node8" href="$interface_unity_engine_1_1_pro_grids_1_1_i_conditional_snap.html" title="Implement this interface in a MonoBehaviour to dynamically enable or disabled grid snapping on the pa..." alt="" coords="176,816,424,843"/>
+<area shape="rect" id="node9" href="$class_ignore_snap_interface.html" title=" " alt="" coords="512,805,648,832"/>
+<area shape="rect" id="node10" title=" " alt="" coords="240,715,360,741"/>
+<area shape="rect" id="node11" href="$class_t_m_pro_1_1_t_m_p___scrollbar_event_handler.html" title=" " alt="" coords="489,718,671,759"/>
+<area shape="rect" id="node12" title=" " alt="" coords="252,157,348,184"/>
+<area shape="rect" id="node13" title=" " alt="" coords="241,208,359,235"/>
+<area shape="rect" id="node14" title=" " alt="" coords="244,56,356,83"/>
+<area shape="rect" id="node15" href="$class_t_m_pro_1_1_text_mesh_pro.html" title=" " alt="" coords="509,56,651,83"/>
+<area shape="rect" id="node16" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html" title=" " alt="" coords="494,5,666,32"/>
+<area shape="rect" id="node17" title=" " alt="" coords="26,461,107,488"/>
+<area shape="rect" id="node18" title=" " alt="" coords="9,512,125,539"/>
+<area shape="rect" id="node19" title=" " alt="" coords="231,613,369,640"/>
+<area shape="rect" id="node20" title=" " alt="" coords="249,360,351,387"/>
+<area shape="rect" id="node21" title=" " alt="" coords="247,765,353,792"/>
+<area shape="rect" id="node22" title=" " alt="" coords="245,512,355,539"/>
+<area shape="rect" id="node23" title=" " alt="" coords="219,309,381,336"/>
+<area shape="rect" id="node24" title=" " alt="" coords="5,259,128,285"/>
+<area shape="rect" id="node25" href="$class_t_m_pro_1_1_t_m_p___selection_caret.html" title="A simple component that can be added to a newly created object where inheriting from MaskableGraphic ..." alt="" coords="209,259,391,285"/>
+<area shape="rect" id="node26" href="$class_t_m_pro_1_1_t_m_p___text.html" title="Base class which contains common properties and functions shared between the TextMeshPro and TextMesh..." alt="" coords="239,5,361,32"/>
+<area shape="rect" id="node27" title=" " alt="" coords="245,1664,355,1691"/>
+<area shape="rect" id="node28" href="$class_character.html" title=" " alt="" coords="541,1904,619,1931"/>
+<area shape="rect" id="node30" href="$class_door1_collision.html" title=" " alt="" coords="527,1955,633,1981"/>
+<area shape="rect" id="node31" href="$class_enemy_nav.html" title=" " alt="" coords="538,2005,622,2032"/>
+<area shape="rect" id="node32" href="$class_floor.html" title=" " alt="" coords="555,2056,605,2083"/>
+<area shape="rect" id="node33" href="$class_gun_part.html" title=" " alt="" coords="545,2107,615,2133"/>
+<area shape="rect" id="node58" href="$class_ignore_snap_conditional_attribute.html" title=" " alt="" coords="480,2157,680,2184"/>
+<area shape="rect" id="node59" href="$class_leve_l_manager.html" title=" " alt="" coords="527,2208,633,2235"/>
+<area shape="rect" id="node60" href="$class_player_nav.html" title=" " alt="" coords="540,2259,620,2285"/>
+<area shape="rect" id="node61" href="$class_player_spawn.html" title=" " alt="" coords="531,2309,629,2336"/>
+<area shape="rect" id="node62" href="$class_projectile_controller.html" title=" " alt="" coords="515,2360,645,2387"/>
+<area shape="rect" id="node63" href="$class_receiver.html" title=" " alt="" coords="545,2411,615,2437"/>
+<area shape="rect" id="node65" href="$class_restart_game.html" title=" " alt="" coords="531,2461,629,2488"/>
+<area shape="rect" id="node66" href="$class_r_floor1.html" title=" " alt="" coords="547,2512,613,2539"/>
+<area shape="rect" id="node67" href="$class_r_floor2.html" title=" " alt="" coords="547,856,613,883"/>
+<area shape="rect" id="node68" href="$class_r_floor3.html" title=" " alt="" coords="547,907,613,933"/>
+<area shape="rect" id="node69" href="$class_r_floor4.html" title=" " alt="" coords="547,957,613,984"/>
+<area shape="rect" id="node70" href="$class_simple_health_bar.html" title=" " alt="" coords="521,1008,639,1035"/>
+<area shape="rect" id="node71" href="$class_simple_health_bar___spaceship_example_1_1_asteroid_controller.html" title=" " alt="" coords="487,1059,673,1101"/>
+<area shape="rect" id="node72" href="$class_simple_health_bar___spaceship_example_1_1_game_manager.html" title=" " alt="" coords="487,1125,673,1166"/>
+<area shape="rect" id="node73" href="$class_simple_health_bar___spaceship_example_1_1_health_pickup_controller.html" title=" " alt="" coords="475,1190,685,1231"/>
+<area shape="rect" id="node74" href="$class_simple_health_bar___spaceship_example_1_1_player_controller.html" title=" " alt="" coords="487,1255,673,1297"/>
+<area shape="rect" id="node75" href="$class_simple_health_bar___spaceship_example_1_1_player_health.html" title=" " alt="" coords="487,1321,673,1362"/>
+<area shape="rect" id="node76" href="$class_spawn_loot.html" title=" " alt="" coords="537,1387,623,1413"/>
+<area shape="rect" id="node77" href="$class_t_m_pro_1_1_t_m_p___sprite_animator.html" title=" " alt="" coords="488,1437,672,1464"/>
+<area shape="rect" id="node78" href="$class_t_m_pro_1_1_t_m_p___sub_mesh.html" title=" " alt="" coords="503,1488,657,1515"/>
+<area shape="rect" id="node79" href="$class_unity_engine_1_1_pro_builder_1_1_bezier_shape.html" title=" " alt="" coords="481,1539,679,1581"/>
+<area shape="rect" id="node80" href="$class_unity_engine_1_1_pro_builder_1_1_entity.html" title="Provides some additional functionality to GameObjects, like managing visiblity and colliders." alt="" coords="483,1605,677,1632"/>
+<area shape="rect" id="node81" href="$class_unity_engine_1_1_pro_builder_1_1_entity_behaviour.html" title=" " alt="" coords="483,1657,677,1698"/>
+<area shape="rect" id="node84" href="$class_unity_engine_1_1_pro_builder_1_1_poly_shape.html" title=" " alt="" coords="487,1722,673,1763"/>
+<area shape="rect" id="node85" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html" title="This component is responsible for storing all the data necessary for editing and compiling UnityEngin..." alt="" coords="490,1787,670,1829"/>
+<area shape="rect" id="node86" href="$class_unity_engine_1_1_pro_grids_1_1_ignore_snap.html" title="Assign this script to a GameObject to tell ProGrids to ignore snapping on this object...." alt="" coords="472,1853,688,1880"/>
+<area shape="rect" id="node29" href="$class_player_controller.html" title=" " alt="" coords="780,1768,895,1795"/>
+<area shape="rect" id="node34" href="$class_ammo_type.html" title=" " alt="" coords="793,1993,881,2020"/>
+<area shape="rect" id="node37" href="$class_barrel.html" title=" " alt="" coords="809,2095,865,2121"/>
+<area shape="rect" id="node40" href="$class_caliber.html" title=" " alt="" coords="806,2145,869,2172"/>
+<area shape="rect" id="node43" href="$class_cyclic_modifier.html" title=" " alt="" coords="786,2247,889,2273"/>
+<area shape="rect" id="node46" href="$class_magazine.html" title=" " alt="" coords="798,2348,877,2375"/>
+<area shape="rect" id="node49" href="$class_sight.html" title=" " alt="" coords="811,2424,863,2451"/>
+<area shape="rect" id="node52" href="$class_stock.html" title=" " alt="" coords="809,1819,865,1845"/>
+<area shape="rect" id="node55" href="$class_under_barrel.html" title=" " alt="" coords="792,1892,883,1919"/>
+<area shape="rect" id="node35" href="$class_alt_projectile.html" title=" " alt="" coords="1005,1943,1097,1969"/>
+<area shape="rect" id="node36" href="$class_standard_projectile.html" title=" " alt="" coords="987,1993,1115,2020"/>
+<area shape="rect" id="node38" href="$class_alt_barrel.html" title=" " alt="" coords="1015,2044,1087,2071"/>
+<area shape="rect" id="node39" href="$class_standard_barrel.html" title=" " alt="" coords="997,2095,1105,2121"/>
+<area shape="rect" id="node41" href="$class_alt_caliber.html" title=" " alt="" coords="1011,2145,1090,2172"/>
+<area shape="rect" id="node42" href="$class_standard_caliber.html" title=" " alt="" coords="993,2196,1108,2223"/>
+<area shape="rect" id="node44" href="$class_charge_shot.html" title=" " alt="" coords="1005,2247,1096,2273"/>
+<area shape="rect" id="node45" href="$class_full_auto.html" title=" " alt="" coords="1015,2297,1086,2324"/>
+<area shape="rect" id="node47" href="$class_alt_mag.html" title=" " alt="" coords="1019,2348,1082,2375"/>
+<area shape="rect" id="node48" href="$class_standard_mag.html" title=" " alt="" coords="1001,2399,1100,2425"/>
+<area shape="rect" id="node50" href="$class_alt_sight.html" title=" " alt="" coords="1017,2449,1085,2476"/>
+<area shape="rect" id="node51" href="$class_standard_sight.html" title=" " alt="" coords="999,2500,1103,2527"/>
+<area shape="rect" id="node53" href="$class_alt_stock.html" title=" " alt="" coords="1015,1740,1087,1767"/>
+<area shape="rect" id="node54" href="$class_standard_stock.html" title=" " alt="" coords="997,1791,1105,1817"/>
+<area shape="rect" id="node56" href="$class_fore_grip.html" title=" " alt="" coords="1015,1841,1087,1868"/>
+<area shape="rect" id="node57" href="$class_grenade_launcher.html" title=" " alt="" coords="989,1892,1113,1919"/>
+<area shape="rect" id="node64" href="$class_rifle_script.html" title=" " alt="" coords="797,2475,878,2501"/>
+<area shape="rect" id="node82" href="$class_unity_engine_1_1_pro_builder_1_1_collider_behaviour.html" title="A MonoBehaviour that automatically enables and disables the parent GameObject on exiting and enterin ..." alt="" coords="736,1625,939,1666"/>
+<area shape="rect" id="node83" href="$class_unity_engine_1_1_pro_builder_1_1_trigger_behaviour.html" title="A MonoBehaviour that automatically enables and disables the parent GameObject on exiting and enterin ..." alt="" coords="738,1690,937,1731"/>
+<area shape="rect" id="node87" title=" " alt="" coords="259,563,341,589"/>
+</map>

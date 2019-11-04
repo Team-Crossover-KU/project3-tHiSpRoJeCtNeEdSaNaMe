@@ -1,0 +1,8 @@
+<map id="PlayerController" name="PlayerController">
+<area shape="rect" id="node1" title=" " alt="" coords="127,1120,257,1520"/>
+<area shape="rect" id="node2" href="$class_character.html" title=" " alt="" coords="5,380,128,604"/>
+<area shape="rect" id="node3" title=" " alt="" coords="93,5,203,83"/>
+<area shape="rect" id="node5" href="$class_receiver.html" title=" " alt="" coords="104,628,280,999"/>
+<area shape="rect" id="node6" href="$class_gun_part.html" title=" " alt="" coords="186,132,369,356"/>
+<area shape="rect" id="node4" title=" " alt="" coords="305,775,351,852"/>
+</map>

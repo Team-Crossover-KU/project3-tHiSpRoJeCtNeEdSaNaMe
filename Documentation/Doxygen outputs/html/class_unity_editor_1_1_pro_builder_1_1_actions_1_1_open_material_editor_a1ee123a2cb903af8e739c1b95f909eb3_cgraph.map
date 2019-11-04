@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.OpenMaterialEditor.DoAction" name="UnityEditor.ProBuilder.Actions.OpenMaterialEditor.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_material_editor.html#a4ff8b1f89820c370c352a9964e1a0781" title=" " alt="" coords="256,5,459,47"/>
+</map>

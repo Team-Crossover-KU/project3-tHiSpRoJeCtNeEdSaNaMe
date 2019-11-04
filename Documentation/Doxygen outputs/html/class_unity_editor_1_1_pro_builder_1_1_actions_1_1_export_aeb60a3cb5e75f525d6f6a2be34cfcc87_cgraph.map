@@ -1,0 +1,8 @@
+<map id="UnityEditor.ProBuilder.Actions.Export.OnSettingsGUI" name="UnityEditor.ProBuilder.Actions.Export.OnSettingsGUI">
+<area shape="rect" id="node1" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,104,208,145"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export.html#ac345a6d4f9e52250b75756e66dc6b617" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,104,459,145"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_asset.html#a51ad8be964146879c6b1b36fef95f6bc" title="Export meshes to a Unity asset." alt="" coords="512,5,732,47"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_stl_ascii.html#a5faca6b6107679235a68c67e2e1afd5e" title=" " alt="" coords="507,71,737,112"/>
+<area shape="rect" id="node5" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_ply.html#aca181772f37c7615189b31d61bc161e4" title=" " alt="" coords="519,136,725,177"/>
+<area shape="rect" id="node6" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_obj.html#a483a8372c825f1c7479cca96028919c6" title=" " alt="" coords="519,201,725,243"/>
+</map>

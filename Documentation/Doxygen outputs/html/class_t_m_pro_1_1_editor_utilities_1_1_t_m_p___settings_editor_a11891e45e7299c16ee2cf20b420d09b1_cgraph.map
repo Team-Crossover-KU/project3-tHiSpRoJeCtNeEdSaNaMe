@@ -1,0 +1,5 @@
+<map id="TMPro.EditorUtilities.TMP_SettingsEditor.OnInspectorGUI" name="TMPro.EditorUtilities.TMP_SettingsEditor.OnInspectorGUI">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___style_sheet.html#a4bab3ca47934d537b41ae066eabac404" title="Function to update the internal reference to a newly assigned style sheet in the TMP Settings." alt="" coords="260,5,467,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___style_sheet.html#aa7ee1ff983631f35b479fbda8df90829" title="Function to refresh the Style Dictionary." alt="" coords="515,5,725,47"/>
+</map>

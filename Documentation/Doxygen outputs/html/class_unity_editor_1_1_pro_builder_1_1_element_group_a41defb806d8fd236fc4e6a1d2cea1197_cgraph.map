@@ -1,0 +1,5 @@
+<map id="UnityEditor.ProBuilder.ElementGroup.GetElementGroups" name="UnityEditor.ProBuilder.ElementGroup.GetElementGroups">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,208,80"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_element_group.html#a2c6b39c347ae1850ba55cde58c55966f" title=" " alt="" coords="269,5,471,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#acc303898728310b469c9b420be6d5e12" title="Get a list of vertices that are coincident to any of the vertices in the passed vertices parameter." alt="" coords="256,71,484,112"/>
+</map>

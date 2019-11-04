@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.SubdivideEdges.DoAction" name="UnityEditor.ProBuilder.Actions.SubdivideEdges.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="259,5,461,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_subdivide_edges.html#abece03723e92ddd1625f97252e75c9b6" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,5,211,47"/>
+</map>

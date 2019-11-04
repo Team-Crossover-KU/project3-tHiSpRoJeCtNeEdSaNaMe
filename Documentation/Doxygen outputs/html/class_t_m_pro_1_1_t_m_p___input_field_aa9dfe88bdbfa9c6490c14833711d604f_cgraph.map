@@ -1,0 +1,5 @@
+<map id="TMPro.TMP_InputField.ForceLabelUpdate" name="TMPro.TMP_InputField.ForceLabelUpdate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a1ac4c595e5f686b371e27745b0a2c99b" title="Update the visual text Text." alt="" coords="244,5,443,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___text.html#a93c463ff2bb3b846a468f3d1764bdef4" title="Function to force the regeneration of the text object." alt="" coords="491,5,683,47"/>
+</map>

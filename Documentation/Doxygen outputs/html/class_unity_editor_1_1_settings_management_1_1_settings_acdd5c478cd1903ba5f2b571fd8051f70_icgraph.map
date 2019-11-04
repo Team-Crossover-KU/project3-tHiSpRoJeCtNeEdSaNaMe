@@ -1,0 +1,5 @@
+<map id="UnityEditor.SettingsManagement.Settings.Save" name="UnityEditor.SettingsManagement.Settings.Save">
+<area shape="rect" id="node1" title="Serialize the state of all settings repositories." alt="" coords="280,50,497,91"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_settings_management_1_1_user_setting.html#afd54c589b111aa6c9f584041bcfefc6a" title="When the inspected type is a reference value, it is possible to change properties without affecting t..." alt="" coords="5,5,232,61"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_settings_management_1_1_user_setting.html#a7aeb08a132738adab71f3fb77d28a061" title="Set the value for this setting." alt="" coords="10,86,227,127"/>
+</map>

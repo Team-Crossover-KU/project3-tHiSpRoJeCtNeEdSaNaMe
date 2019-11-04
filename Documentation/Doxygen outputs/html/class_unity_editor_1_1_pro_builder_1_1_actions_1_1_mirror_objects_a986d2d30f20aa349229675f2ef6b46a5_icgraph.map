@@ -1,0 +1,5 @@
+<map id="UnityEditor.ProBuilder.Actions.MirrorObjects.Mirror" name="UnityEditor.ProBuilder.Actions.MirrorObjects.Mirror">
+<area shape="rect" id="node1" title="Duplicates and mirrors the passed pb_Object." alt="" coords="507,5,709,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_mirror_objects.html#a9d5be637a6b7d258c5b4d66ee53a9615" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,5,459,47"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_mirror_objects.html#ac9c1efe417d58a9709b3947aa205a1f1" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,5,208,47"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="UnityEditor.ProBuilder.Actions.SubdivideObject.DoAction" name="UnityEditor.ProBuilder.Actions.SubdivideObject.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,104,208,145"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a17ffb69e5c2eb62539ce1570b067a4ac" title="Recalculates mesh attributes: normals, collisions, UVs, tangents, and colors." alt="" coords="275,5,455,47"/>
+<area shape="rect" id="node5" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_editor.html#af4c668cdfe80cc365a0b4245a8a8cdcc" title="Rebuild the mesh wireframe and selection caches." alt="" coords="277,71,452,112"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a76a3bc1234c21b274cad932f3b3f9df2" title="Sets the selected vertices array. Clears SelectedFaces and SelectedEdges arrays." alt="" coords="256,136,473,177"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a002304bd6a6491a0702fee01b4cf1769" title="Rebuild the mesh positions and submeshes. If vertex count matches new positions array the existing at..." alt="" coords="275,201,455,243"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#afa107be8165b2617bc37cfac621ff533" title=" " alt="" coords="541,5,721,47"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="807,5,987,47"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#a3e4e58651752b11d920990f4694e657f" title="Create submeshes from a set of faces. Currently only Quads and Triangles are supported." alt="" coords="521,201,740,243"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#aea4a56123f219339841e7412c7fae891" title="Create new Submesh." alt="" coords="788,201,1007,243"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SimpleHealthBar_SpaceshipExample.PlayerHealth" name="SimpleHealthBar_SpaceshipExample.PlayerHealth">
+<area shape="rect" id="node1" title=" " alt="" coords="5,432,192,627"/>
+<area shape="rect" id="node2" title=" " alt="" coords="10,5,121,83"/>
+<area shape="rect" id="node3" href="$class_simple_health_bar.html" title=" " alt="" coords="99,145,243,355"/>
+<area shape="rect" id="node4" title=" " alt="" coords="147,5,194,83"/>
+</map>

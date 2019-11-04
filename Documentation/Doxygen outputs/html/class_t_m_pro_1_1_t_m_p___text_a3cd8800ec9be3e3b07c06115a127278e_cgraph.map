@@ -1,0 +1,8 @@
+<map id="TMPro.TMP_Text.SetText" name="TMPro.TMP_Text.SetText">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,177,83"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___text.html#ae12ed589bd20ef87e4f4d9e05c6bf601" title="Method to store the content of a string into an integer array." alt="" coords="225,49,428,90"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___text.html#ac300ce0327de1c0807c6617496b367cb" title="Convert UTF&#45;16 Hex to Char" alt="" coords="487,5,673,32"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_t_m_p___text.html#add381cfff574155b2b44eddc9fedd883" title="Convert UTF&#45;32 Hex to Char" alt="" coords="487,56,673,83"/>
+<area shape="rect" id="node6" href="$struct_t_m_pro_1_1_t_m_p___rich_text_tag_stack.html#a724c08f97afa20f3503d967edf7eab87" title="Function to set the first item on the stack and reset index." alt="" coords="476,107,684,149"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_t_m_p___text.html#a2c888ce3a21999d51131753730cac678" title="Function to pack scale information in the UV2 Channel." alt="" coords="732,31,911,57"/>
+</map>

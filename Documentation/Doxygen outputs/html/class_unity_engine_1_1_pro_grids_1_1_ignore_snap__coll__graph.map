@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProGrids.IgnoreSnap" name="UnityEngine.ProGrids.IgnoreSnap">
+<area shape="rect" id="node1" title="Assign this script to a GameObject to tell ProGrids to ignore snapping on this object...." alt="" coords="5,131,221,208"/>
+<area shape="rect" id="node2" title=" " alt="" coords="58,5,169,83"/>
+</map>

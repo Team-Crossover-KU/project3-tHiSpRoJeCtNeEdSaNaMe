@@ -1,0 +1,7 @@
+<map id="UnityEngine.ProBuilder.Vertex.GetArrays" name="UnityEngine.ProBuilder.Vertex.GetArrays">
+<area shape="rect" id="node1" title="Allocate and fill all attribute arrays. This method will fill all arrays, regardless of whether or no..." alt="" coords="512,39,715,80"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a69b813b8c74ca99050ad84d28d4d18de" title="Replace mesh values with vertex array. Mesh is cleared during this function, so be sure to set the tr..." alt="" coords="261,5,464,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a94b394d305bafab9d31f7a064f3a94ef" title="Set the vertex element arrays on this mesh." alt="" coords="273,71,453,112"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_face_rebuild_data.html#ab6340044450ee9c7f83b0c61f8bc7179" title=" " alt="" coords="15,37,204,79"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_mesh_operations_1_1_mesh_importer.html#a2a2b848a0885f7acd71d7bc248b32e7e" title="Import mesh data from a GameObject&#39;s MeshFilter.sharedMesh and MeshRenderer.sharedMaterials." alt="" coords="5,103,213,144"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.GetTangents" name="UnityEngine.ProBuilder.ProBuilderMesh.GetTangents">
+<area shape="rect" id="node1" title="Get the tangents applied to the mesh, or create and cache them if not yet initialized." alt="" coords="475,39,655,80"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#ae0d83a2ef30ca08b57139474b86676e5" title="Creates a new array of vertices with values from a &quot;UnityEngine.ProBuilder.ProBuilderMesh&quot; component." alt="" coords="247,39,427,80"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_face_rebuild_data.html#ab6340044450ee9c7f83b0c61f8bc7179" title=" " alt="" coords="7,5,197,47"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_model.html#af8d40b55bcbaa414bb741fd7e2cf9129" title="Create a pb_Model from a pb_Object, optionally converting to quad topology." alt="" coords="5,71,199,112"/>
+</map>

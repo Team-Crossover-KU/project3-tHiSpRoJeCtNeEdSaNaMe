@@ -1,0 +1,6 @@
+<map id="UnityEditor.ProBuilder.Actions.ExportObj.ExportWithFileDialog" name="UnityEditor.ProBuilder.Actions.ExportObj.ExportWithFileDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="507,39,713,80"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export_obj.html#af8ff4f351e5a713f133baeb85a8257c7" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,5,459,47"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export.html#ac345a6d4f9e52250b75756e66dc6b617" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,71,459,112"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_export.html#aeb60a3cb5e75f525d6f6a2be34cfcc87" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,71,208,112"/>
+</map>

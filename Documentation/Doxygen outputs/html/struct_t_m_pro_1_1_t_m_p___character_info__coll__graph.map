@@ -1,0 +1,11 @@
+<map id="TMPro.TMP_CharacterInfo" name="TMPro.TMP_CharacterInfo">
+<area shape="rect" id="node1" title="Structure containing information about individual text elements (character or sprites)." alt="" coords="427,1336,609,1560"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_t_m_p___font_asset.html" title=" " alt="" coords="247,419,477,1229"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___asset.html" title=" " alt="" coords="76,191,216,297"/>
+<area shape="rect" id="node8" href="$class_t_m_pro_1_1_t_m_p___sprite_asset.html" title=" " alt="" coords="5,653,223,995"/>
+<area shape="rect" id="node4" title=" " alt="" coords="87,5,205,83"/>
+<area shape="rect" id="node5" href="$struct_t_m_pro_1_1_font_asset_creation_settings.html" title=" " alt="" coords="245,132,465,356"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_kerning_table.html" title=" " alt="" coords="490,161,719,327"/>
+<area shape="rect" id="node7" href="$struct_t_m_pro_1_1_t_m_p___vertex.html" title=" " alt="" coords="502,756,638,892"/>
+<area shape="rect" id="node9" href="$class_t_m_pro_1_1_t_m_p___text_element.html" title="Base class for all text elements like Character and SpriteCharacter." alt="" coords="662,749,833,899"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SimpleHealthBarEditor.OnInspectorGUI" name="SimpleHealthBarEditor.OnInspectorGUI">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,180,69"/>
+<area shape="rect" id="node2" href="$class_simple_health_bar.html#a028ccd8b9a1b2e161a5fa957b1e50ada" title="Updates the health bar with the current and max values." alt="" coords="231,5,415,32"/>
+<area shape="rect" id="node3" href="$class_simple_health_bar.html#adc928acbbcd5a2f84ca5ea9ee6966baf" title="Updates the color of the text associated with the bar." alt="" coords="228,57,417,98"/>
+</map>

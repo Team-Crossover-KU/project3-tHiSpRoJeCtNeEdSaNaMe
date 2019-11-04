@@ -1,0 +1,12 @@
+<map id="UnityEditor.ProBuilder.Actions.ExtrudeFaces.DoAction" name="UnityEditor.ProBuilder.Actions.ExtrudeFaces.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,136,208,177"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#acfc452036a19e8f25c1bfa5e98a9d394" title="Get a copy of the selected face array." alt="" coords="256,5,463,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a17ffb69e5c2eb62539ce1570b067a4ac" title="Recalculates mesh attributes: normals, collisions, UVs, tangents, and colors." alt="" coords="269,71,449,112"/>
+<area shape="rect" id="node6" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_editor.html#af4c668cdfe80cc365a0b4245a8a8cdcc" title="Rebuild the mesh wireframe and selection caches." alt="" coords="272,136,447,177"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a97a433d48049fc9477def1465f17c57f" title="Set the face selection for this mesh. Also sets the vertex and edge selection to match." alt="" coords="257,201,462,243"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a002304bd6a6491a0702fee01b4cf1769" title="Rebuild the mesh positions and submeshes. If vertex count matches new positions array the existing at..." alt="" coords="269,267,449,308"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#afa107be8165b2617bc37cfac621ff533" title=" " alt="" coords="530,71,710,112"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="797,71,977,112"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#a3e4e58651752b11d920990f4694e657f" title="Create submeshes from a set of faces. Currently only Quads and Triangles are supported." alt="" coords="511,267,729,308"/>
+<area shape="rect" id="node10" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#aea4a56123f219339841e7412c7fae891" title="Create new Submesh." alt="" coords="777,267,996,308"/>
+</map>

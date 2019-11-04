@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.VertexPositionEditor.MenuOpenVertexEditor" name="UnityEditor.ProBuilder.VertexPositionEditor.MenuOpenVertexEditor">
+<area shape="rect" id="node1" title=" " alt="" coords="283,5,525,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_open_vertex_position_editor.html#a7ccf3132f00d4af7cdb6fcf1d185c3ce" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,235,47"/>
+</map>

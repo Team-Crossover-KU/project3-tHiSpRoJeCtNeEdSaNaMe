@@ -1,0 +1,7 @@
+<map id="TMPro.TextMeshPro.AdjustLineOffset" name="TMPro.TextMeshPro.AdjustLineOffset">
+<area shape="rect" id="node1" title="Method to adjust line spacing as a result of using different fonts or font point size." alt="" coords="511,71,693,112"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_text_mesh_pro.html#aa98e9ced224ca5ce5e71cbf213645128" title="This is the main function that is responsible for creating / displaying the text." alt="" coords="264,71,463,112"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_text_mesh_pro.html#a80daf54d9c201cbb21a4c409224e579b" title=" " alt="" coords="11,5,210,47"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_text_mesh_pro.html#a9e9a22b4db22929f0a06c5af3bec6e5a" title=" " alt="" coords="11,71,210,112"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_text_mesh_pro.html#a3652c1b48e8b425fc8a599aa05fad59e" title="Function used to evaluate the length of a text string." alt="" coords="5,137,216,163"/>
+</map>

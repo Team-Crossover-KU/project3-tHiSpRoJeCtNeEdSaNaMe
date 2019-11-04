@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.UVEditor.MenuOpenUVEditor" name="UnityEditor.ProBuilder.UVEditor.MenuOpenUVEditor">
+<area shape="rect" id="node1" title=" " alt="" coords="256,5,467,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_open_u_v_editor.html#a0fd56139e851f7774db19d4705001f82" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,208,47"/>
+</map>

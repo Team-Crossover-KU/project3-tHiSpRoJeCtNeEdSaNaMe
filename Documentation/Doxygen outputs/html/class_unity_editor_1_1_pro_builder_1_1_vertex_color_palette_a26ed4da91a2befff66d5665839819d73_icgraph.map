@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.VertexColorPalette.MenuOpenWindow" name="UnityEditor.ProBuilder.VertexColorPalette.MenuOpenWindow">
+<area shape="rect" id="node1" title="Initialize this window." alt="" coords="265,5,472,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_open_vertex_color_editor.html#ac6ba2e896e0fbcdd6ac16ed0f80af8fc" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,217,47"/>
+</map>

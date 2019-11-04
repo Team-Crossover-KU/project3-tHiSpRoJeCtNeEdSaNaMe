@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.SelectVertexColor.DoAction" name="UnityEditor.ProBuilder.Actions.SelectVertexColor.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="272,5,475,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_select_vertex_color.html#a33f4e51809c41c28921ac7aa0eae4ce1" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,5,224,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.CollapseVertices.DoAction" name="UnityEditor.ProBuilder.Actions.CollapseVertices.DoAction">
+<area shape="rect" id="node1" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="264,5,467,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_collapse_vertices.html#ad4a4ff866fc1e88d6a210fc579c697d7" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,5,216,47"/>
+</map>

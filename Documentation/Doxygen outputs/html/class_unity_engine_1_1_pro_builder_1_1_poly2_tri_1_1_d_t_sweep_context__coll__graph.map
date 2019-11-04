@@ -1,0 +1,16 @@
+<map id="UnityEngine.ProBuilder.Poly2Tri.DTSweepContext" name="UnityEngine.ProBuilder.Poly2Tri.DTSweepContext">
+<area shape="rect" id="node1" title=" " alt="" coords="298,1264,491,1561"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_context.html" title=" " alt="" coords="5,948,165,1201"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_d_t_sweep_basin.html" title=" " alt="" coords="625,1021,818,1128"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_advancing_front_node.html" title=" " alt="" coords="423,735,617,856"/>
+<area shape="rect" id="node14" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_advancing_front.html" title=" " alt="" coords="407,992,601,1157"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_point.html" title=" " alt="" coords="190,132,383,356"/>
+<area shape="rect" id="node13" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_constraint.html" title=" " alt="" coords="209,514,364,591"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_delaunay_triangle.html" title=" " alt="" coords="618,433,811,672"/>
+<area shape="rect" id="node7" href="$struct_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_fixed_array3.html" title=" " alt="" coords="408,132,640,356"/>
+<area shape="rect" id="node8" href="$struct_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_fixed_array3.html" title=" " alt="" coords="665,132,893,356"/>
+<area shape="rect" id="node9" href="$struct_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_fixed_bit_array3.html" title=" " alt="" coords="917,139,1110,349"/>
+<area shape="rect" id="node10" title=" " alt="" coords="942,5,1085,83"/>
+<area shape="rect" id="node11" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_d_t_sweep_edge_event.html" title=" " alt="" coords="190,1029,383,1121"/>
+<area shape="rect" id="node12" href="$class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_d_t_sweep_constraint.html" title=" " alt="" coords="190,749,383,841"/>
+</map>

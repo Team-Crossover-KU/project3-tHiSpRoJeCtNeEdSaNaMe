@@ -1,0 +1,8 @@
+<map id="TMPro.TextMeshProUGUI.LoadFontAsset" name="TMPro.TextMeshProUGUI.LoadFontAsset">
+<area shape="rect" id="node1" title="Method which derived classes need to override to load Font Assets." alt="" coords="5,104,209,145"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#ae9871315cb95b1211de6c61f7500947b" title="Get the padding value for the currently assigned material." alt="" coords="257,5,455,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_t_m_p___text.html#a17ad19c4cf9c5ad4485b208eb0a37bf2" title="Method used to find and cache references to the Underline and Ellipsis characters." alt="" coords="261,71,451,112"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_t_m_p___font_asset.html#ade90a42615b002bb0c31b06d497df510" title=" " alt="" coords="260,136,452,177"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#af75e3f762ed8c445cc4ad100903b5cf1" title=" " alt="" coords="258,201,454,243"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_t_m_p___font_asset_utilities.html#a603d82b9eb3d85f7f3ed3b2a5234a592" title="Returns the text element (character) for the given unicode value taking into consideration the reques..." alt="" coords="503,71,708,112"/>
+</map>

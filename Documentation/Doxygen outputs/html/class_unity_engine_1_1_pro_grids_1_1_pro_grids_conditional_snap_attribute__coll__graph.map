@@ -1,0 +1,4 @@
+<map id="UnityEngine.ProGrids.ProGridsConditionalSnapAttribute" name="UnityEngine.ProGrids.ProGridsConditionalSnapAttribute">
+<area shape="rect" id="node1" title="Tells ProGrids to check for a function named bool IsSnapEnabled() on this object. In this way you can..." alt="" coords="5,131,201,223"/>
+<area shape="rect" id="node2" title=" " alt="" coords="68,5,139,83"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="UnityEngine.ProBuilder.Vertex.Vertex" name="UnityEngine.ProBuilder.Vertex.Vertex">
+<area shape="rect" id="node1" title="Initialize a Vertex with no values." alt="" coords="584,235,787,277"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a0aa80783008a12a114ce60e3557a21a3" title="Addition is performed component&#45;wise for every property." alt="" coords="311,29,536,56"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#ade45f7cee84b3d9d71a45d89ad496683" title="Average all vertices to a single vertex." alt="" coords="322,81,525,122"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#aba65f6558fa6ceab7321876903bcfbe9" title="Division is performed component&#45;wise for every property." alt="" coords="322,170,525,211"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a42b0079037e9ec8c117519c88a2bd4e5" title="Allocate and fill the requested attribute arrays." alt="" coords="322,235,525,277"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a8f5e50f0c3035a5c49f2e7ecd1ba3410" title="Linearly interpolate between two vertices." alt="" coords="312,301,535,328"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a4f0f305270781ea36f16914cac3083d7" title="Multiplication is performed component&#45;wise for every property." alt="" coords="322,377,525,418"/>
+<area shape="rect" id="node11" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a37615bf7879a4658f11b61d5d3eb41ca" title="Subtraction is performed component&#45;wise for every property." alt="" coords="322,442,525,483"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a13a0976293410ecd9d785779efde7242" title="Addition is performed component&#45;wise for every property." alt="" coords="5,29,263,56"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#aee0a312bf682c54ab6df974585ba2963" title="Division is performed component&#45;wise for every property." alt="" coords="7,177,261,204"/>
+<area shape="rect" id="node10" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#aa167e680af88ec293a46820f2d0d9eb1" title="Multiplication is performed component&#45;wise for every property." alt="" coords="7,384,261,411"/>
+<area shape="rect" id="node12" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a3946a3308ab229d2e25674e41d4e4f0b" title="Subtraction is performed component&#45;wise for every property." alt="" coords="7,449,261,476"/>
+</map>

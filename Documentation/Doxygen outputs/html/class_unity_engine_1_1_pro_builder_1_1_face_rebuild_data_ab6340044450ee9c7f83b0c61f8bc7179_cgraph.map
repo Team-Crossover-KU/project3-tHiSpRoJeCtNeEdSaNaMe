@@ -1,0 +1,12 @@
+<map id="UnityEngine.ProBuilder.FaceRebuildData.Apply" name="UnityEngine.ProBuilder.FaceRebuildData.Apply">
+<area shape="rect" id="node1" title=" " alt="" coords="5,153,195,195"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#ae0d83a2ef30ca08b57139474b86676e5" title="Creates a new array of vertices with values from a &quot;UnityEngine.ProBuilder.ProBuilderMesh&quot; component." alt="" coords="243,104,423,145"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a94b394d305bafab9d31f7a064f3a94ef" title="Set the vertex element arrays on this mesh." alt="" coords="243,201,423,243"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a3c4d7184c3832e8918e561284736d36f" title=" " alt="" coords="482,5,662,47"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a05dc38db1abbdc8922608d1f603e4b50" title="Get the tangents applied to the mesh, or create and cache them if not yet initialized." alt="" coords="482,71,662,112"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#acb06e770b36d60cbd0fef677704766d4" title="Copy values in a UV channel to uvs." alt="" coords="482,136,662,177"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="723,39,903,80"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a3dac3369c26af626faf82495bf0c8d08" title="Reset all the attribute arrays on this object." alt="" coords="482,201,662,243"/>
+<area shape="rect" id="node10" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a726a6e4ab3aada195cec70ae482d69fd" title="Allocate and fill all attribute arrays. This method will fill all arrays, regardless of whether or no..." alt="" coords="471,267,673,308"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a668d5e19ed7a3cd92a5b6346bf16caba" title="Clears selected face, edge, and vertex arrays. You do not need to call this when setting an individua..." alt="" coords="721,201,904,243"/>
+</map>

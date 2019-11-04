@@ -1,0 +1,24 @@
+<map id="TMPro.TMP_Text.ForceMeshUpdate" name="TMPro.TMP_Text.ForceMeshUpdate">
+<area shape="rect" id="node1" title="Function to force the regeneration of the text object." alt="" coords="1072,200,1264,241"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_text_mesh_pro.html#aa98e9ced224ca5ce5e71cbf213645128" title="This is the main function that is responsible for creating / displaying the text." alt="" coords="810,69,1009,111"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#ae43d87969cffe98fbaea5edabc0d55dd" title="This is the main function that is responsible for creating / displaying the text." alt="" coords="795,200,1024,241"/>
+<area shape="rect" id="node8" href="$class_t_m_pro_1_1_text_mesh_pro.html#a88a0e8baa65c349d22670d6f09bebe11" title="Method used to determine the number of visible characters and required buffer allocations." alt="" coords="811,135,1007,176"/>
+<area shape="rect" id="node9" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#ab3f4835091a08ff9f3c78fe837ca43d0" title="Method used to determine the number of visible characters and required buffer allocations." alt="" coords="811,265,1007,307"/>
+<area shape="rect" id="node10" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a1ac4c595e5f686b371e27745b0a2c99b" title="Update the visual text Text." alt="" coords="810,517,1009,559"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_text_mesh_pro.html#a80daf54d9c201cbb21a4c409224e579b" title=" " alt="" coords="523,5,722,47"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_text_mesh_pro.html#a9e9a22b4db22929f0a06c5af3bec6e5a" title=" " alt="" coords="523,71,722,112"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_text_mesh_pro.html#a3652c1b48e8b425fc8a599aa05fad59e" title="Function used to evaluate the length of a text string." alt="" coords="517,139,728,166"/>
+<area shape="rect" id="node7" href="$class_t_m_pro_1_1_text_mesh_pro_u_g_u_i.html#a8232388d078ad69a9ea241fa15bd2fab" title="Function used to evaluate the length of a text string." alt="" coords="524,200,721,241"/>
+<area shape="rect" id="node11" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a3d0b5e6b105dd61c4cfb9cfeb7956133" title=" " alt="" coords="521,266,724,293"/>
+<area shape="rect" id="node12" href="$class_t_m_pro_1_1_t_m_p___input_field.html#aa9dfe88bdbfa9c6490c14833711d604f" title=" " alt="" coords="527,317,718,359"/>
+<area shape="rect" id="node13" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a9ef972ef2261f10383fd4a900a9c3449" title=" " alt="" coords="269,572,451,613"/>
+<area shape="rect" id="node14" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a6daaf6eadebb182f92aa088d7abb86dc" title=" " alt="" coords="5,420,221,461"/>
+<area shape="rect" id="node16" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a0470349eb9f2156696cd6a921b558ba7" title="Move to the end of the text." alt="" coords="529,485,717,527"/>
+<area shape="rect" id="node17" href="$class_t_m_pro_1_1_t_m_p___input_field.html#aff69df0c224c73b666addf48c10eec44" title="Move to the start of the text." alt="" coords="529,551,717,592"/>
+<area shape="rect" id="node18" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a817cdcf34d7711275ffa8643b02a73fa" title="Move to the end of the current line of text." alt="" coords="529,616,717,657"/>
+<area shape="rect" id="node19" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ad0c485854da42ede16b5127258120c40" title="Move to the start of the current line of text." alt="" coords="529,681,717,723"/>
+<area shape="rect" id="node20" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ae84831aa9c5d44a1ca91685d772b44d4" title=" " alt="" coords="513,747,732,774"/>
+<area shape="rect" id="node21" href="$class_t_m_pro_1_1_t_m_p___input_field.html#ad2ff861cc6eb60e636a7dc4cb8280437" title=" " alt="" coords="515,798,730,825"/>
+<area shape="rect" id="node22" href="$class_t_m_pro_1_1_t_m_p___input_field.html#a9b56bc090d1633c3452c7be950b9b373" title=" " alt="" coords="499,849,747,875"/>
+<area shape="rect" id="node15" href="$class_t_m_pro_1_1_t_m_p___input_field.html#abdbb932fc8d6aa12272b0a480ad13504" title=" " alt="" coords="10,572,217,613"/>
+</map>

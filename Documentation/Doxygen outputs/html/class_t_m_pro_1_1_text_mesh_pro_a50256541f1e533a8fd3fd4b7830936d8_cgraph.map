@@ -1,0 +1,6 @@
+<map id="TMPro.TextMeshPro.SetSharedMaterial" name="TMPro.TextMeshPro.SetSharedMaterial">
+<area shape="rect" id="node1" title="Function called internally when a new shared material is assigned via the fontSharedMaterial property..." alt="" coords="5,39,212,80"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_text_mesh_pro.html#ac5fee6a94cf72cc38078e03bbf662ae4" title="Get the padding value for the currently assigned material." alt="" coords="260,5,473,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_text_mesh_pro.html#af2177065726b878773a7798a3e4aedf7" title="Schedule updating of the material used by the text object." alt="" coords="261,71,472,112"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_text_mesh_pro.html#ae087fd09b3ce4bb5bfea21e7207f3d56" title=" " alt="" coords="521,71,708,112"/>
+</map>

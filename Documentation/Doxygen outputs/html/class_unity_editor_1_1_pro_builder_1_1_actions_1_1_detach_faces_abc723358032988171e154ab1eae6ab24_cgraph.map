@@ -1,0 +1,4 @@
+<map id="UnityEditor.ProBuilder.Actions.DetachFaces.OnSettingsGUI" name="UnityEditor.ProBuilder.Actions.DetachFaces.OnSettingsGUI">
+<area shape="rect" id="node1" title="Implement the extra settings GUI for your action in this method." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_detach_faces.html#aa947700aff4d7264495fd91119f0a40f" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="256,5,459,47"/>
+</map>

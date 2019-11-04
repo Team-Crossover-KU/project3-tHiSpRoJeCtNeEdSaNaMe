@@ -1,0 +1,14 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,333,61,359"/>
+<area shape="rect" id="node2" href="$class_t_m_pro_1_1_editor_utilities_1_1_t_m_p___context_menus.html" title=" " alt="" coords="131,5,303,47"/>
+<area shape="rect" id="node3" href="$class_t_m_pro_1_1_editor_utilities_1_1_t_m_p___sprite_asset_editor.html" title=" " alt="" coords="131,71,303,112"/>
+<area shape="rect" id="node4" href="$class_t_m_pro_1_1_editor_utilities_1_1_t_m_p___style_editor.html" title=" " alt="" coords="131,136,303,177"/>
+<area shape="rect" id="node5" href="$class_t_m_pro_1_1_editor_utilities_1_1_t_m_p___sub_mesh___editor.html" title=" " alt="" coords="131,201,303,243"/>
+<area shape="rect" id="node6" href="$class_t_m_pro_1_1_editor_utilities_1_1_t_m_pro___text_container_editor.html" title=" " alt="" coords="126,267,309,308"/>
+<area shape="rect" id="node7" href="$class_t_m_pro_1_1_t_m_p___package_utilities.html" title=" " alt="" coords="121,333,313,359"/>
+<area shape="rect" id="node8" href="$class_unity_editor_1_1_pro_builder_1_1_bezier_shape_editor.html" title=" " alt="" coords="122,384,313,425"/>
+<area shape="rect" id="node9" href="$class_unity_editor_1_1_pro_builder_1_1_poly_shape_editor.html" title=" " alt="" coords="127,449,307,491"/>
+<area shape="rect" id="node10" href="$class_unity_editor_1_1_pro_builder_1_1_preference_dictionary_editor.html" title=" " alt="" coords="109,515,325,556"/>
+<area shape="rect" id="node11" href="$class_unity_editor_1_1_pro_builder_1_1_pro_builder_mesh_editor.html" title="Custom editor for ProBuilderMesh type." alt="" coords="130,580,305,621"/>
+<area shape="rect" id="node12" href="$class_unity_editor_1_1_pro_builder_1_1_unwrap_parameters_editor.html" title="Inspector for working with lightmap UV generation params." alt="" coords="119,645,316,687"/>
+</map>

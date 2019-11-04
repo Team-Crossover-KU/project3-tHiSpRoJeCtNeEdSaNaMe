@@ -1,0 +1,11 @@
+<map id="UnityEditor.ProBuilder.ConfigurableWindow" name="UnityEditor.ProBuilder.ConfigurableWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="561,131,786,267"/>
+<area shape="rect" id="node4" href="$class_unity_editor_1_1_pro_builder_1_1_material_editor.html" title="Assign materials to faces and objects." alt="" coords="5,417,205,715"/>
+<area shape="rect" id="node5" href="$class_unity_editor_1_1_pro_builder_1_1_shape_editor.html" title="Shape creation panel implementation." alt="" coords="230,513,421,619"/>
+<area shape="rect" id="node6" href="$class_unity_editor_1_1_pro_builder_1_1_smooth_group_editor.html" title="Smoothing groups editor window." alt="" coords="445,461,664,671"/>
+<area shape="rect" id="node7" href="$class_unity_editor_1_1_pro_builder_1_1_u_v_editor.html" title=" " alt="" coords="689,315,895,817"/>
+<area shape="rect" id="node8" href="$class_unity_editor_1_1_pro_builder_1_1_vertex_color_palette.html" title=" " alt="" coords="920,505,1112,627"/>
+<area shape="rect" id="node9" href="$class_unity_editor_1_1_pro_builder_1_1_vertex_position_editor.html" title="A simple line&#45;item editor for vertex positions." alt="" coords="1136,520,1328,612"/>
+<area shape="rect" id="node2" title=" " alt="" coords="553,5,655,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="680,5,805,83"/>
+</map>

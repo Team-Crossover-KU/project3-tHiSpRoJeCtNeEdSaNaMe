@@ -1,0 +1,4 @@
+<map id="UnityEditor.SettingsManagement.ProjectSettingsRepository" name="UnityEditor.SettingsManagement.ProjectSettingsRepository">
+<area shape="rect" id="node1" title="A settings repository that stores data to a JSON file." alt="" coords="5,204,223,384"/>
+<area shape="rect" id="node2" href="$interface_unity_editor_1_1_settings_management_1_1_i_settings_repository.html" title="A settings repository is responsible for implementing the saving and loading of values." alt="" coords="41,5,187,156"/>
+</map>

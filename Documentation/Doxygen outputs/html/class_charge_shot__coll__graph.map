@@ -1,0 +1,7 @@
+<map id="ChargeShot" name="ChargeShot">
+<area shape="rect" id="node1" title=" " alt="" coords="69,1008,207,1115"/>
+<area shape="rect" id="node2" href="$class_cyclic_modifier.html" title=" " alt="" coords="69,852,207,959"/>
+<area shape="rect" id="node3" href="$class_gun_part.html" title=" " alt="" coords="5,132,188,356"/>
+<area shape="rect" id="node5" href="$class_receiver.html" title=" " alt="" coords="134,419,310,789"/>
+<area shape="rect" id="node4" title=" " alt="" coords="129,5,240,83"/>
+</map>

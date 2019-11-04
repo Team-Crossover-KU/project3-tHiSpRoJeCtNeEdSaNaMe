@@ -1,0 +1,14 @@
+<map id="RifleScript" name="RifleScript">
+<area shape="rect" id="node1" title=" " alt="" coords="415,1113,553,1352"/>
+<area shape="rect" id="node2" href="$class_receiver.html" title=" " alt="" coords="83,419,259,789"/>
+<area shape="rect" id="node9" href="$class_under_barrel.html" title=" " alt="" coords="11,951,101,1043"/>
+<area shape="rect" id="node11" href="$class_cyclic_modifier.html" title=" " alt="" coords="193,944,330,1051"/>
+<area shape="rect" id="node3" title=" " alt="" coords="65,5,175,83"/>
+<area shape="rect" id="node4" href="$class_gun_part.html" title=" " alt="" coords="322,132,505,356"/>
+<area shape="rect" id="node5" href="$class_stock.html" title=" " alt="" coords="717,813,800,920"/>
+<area shape="rect" id="node6" href="$class_barrel.html" title=" " alt="" coords="825,828,881,905"/>
+<area shape="rect" id="node7" href="$class_ammo_type.html" title=" " alt="" coords="335,828,423,905"/>
+<area shape="rect" id="node8" href="$class_caliber.html" title=" " alt="" coords="453,959,515,1036"/>
+<area shape="rect" id="node10" href="$class_sight.html" title=" " alt="" coords="481,565,588,643"/>
+<area shape="rect" id="node12" href="$class_magazine.html" title=" " alt="" coords="613,565,691,643"/>
+</map>

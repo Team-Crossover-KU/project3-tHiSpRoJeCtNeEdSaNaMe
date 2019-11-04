@@ -1,0 +1,4 @@
+<map id="SimpleHealthBar_SpaceshipExample.PlayerHealth.HealPlayer" name="SimpleHealthBar_SpaceshipExample.PlayerHealth.HealPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$class_simple_health_bar.html#a028ccd8b9a1b2e161a5fa957b1e50ada" title="Updates the health bar with the current and max values." alt="" coords="272,13,456,39"/>
+</map>

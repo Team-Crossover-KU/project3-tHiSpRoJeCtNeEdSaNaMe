@@ -1,0 +1,5 @@
+<map id="UnityEditor.ProBuilder.ShapeEditor.MenuOpenShapeCreator" name="UnityEditor.ProBuilder.ShapeEditor.MenuOpenShapeCreator">
+<area shape="rect" id="node1" title=" " alt="" coords="292,39,495,80"/>
+<area shape="rect" id="node2" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_open_shape_editor_menu_item.html#aa6c79f8b432c5dc813632a89204344f4" title="Perform whatever action this menu item is supposed to do. You are resposible for implementing Undo." alt="" coords="5,5,244,47"/>
+<area shape="rect" id="node3" href="$class_unity_editor_1_1_pro_builder_1_1_actions_1_1_open_shape_editor.html#a0c355ca55b85e78e4f311a9ca9c463d8" title=" " alt="" coords="8,71,241,112"/>
+</map>

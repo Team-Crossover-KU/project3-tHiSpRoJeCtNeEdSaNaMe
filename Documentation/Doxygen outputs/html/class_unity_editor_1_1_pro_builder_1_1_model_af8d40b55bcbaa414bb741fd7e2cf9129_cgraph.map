@@ -1,0 +1,13 @@
+<map id="UnityEditor.ProBuilder.Model.Model" name="UnityEditor.ProBuilder.Model.Model">
+<area shape="rect" id="node1" title="Create a pb_Model from a pb_Object, optionally converting to quad topology." alt="" coords="5,101,199,143"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#a3e4e58651752b11d920990f4694e657f" title="Create submeshes from a set of faces. Currently only Quads and Triangles are supported." alt="" coords="475,5,693,47"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#ae0d83a2ef30ca08b57139474b86676e5" title="Creates a new array of vertices with values from a &quot;UnityEngine.ProBuilder.ProBuilderMesh&quot; component." alt="" coords="247,135,427,176"/>
+<area shape="rect" id="node9" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a17ffb69e5c2eb62539ce1570b067a4ac" title="Recalculates mesh attributes: normals, collisions, UVs, tangents, and colors." alt="" coords="247,232,427,273"/>
+<area shape="rect" id="node11" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a002304bd6a6491a0702fee01b4cf1769" title="Rebuild the mesh positions and submeshes. If vertex count matches new positions array the existing at..." alt="" coords="247,67,427,108"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_submesh.html#aea4a56123f219339841e7412c7fae891" title="Create new Submesh." alt="" coords="741,5,960,47"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a3c4d7184c3832e8918e561284736d36f" title=" " alt="" coords="494,71,674,112"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a05dc38db1abbdc8922608d1f603e4b50" title="Get the tangents applied to the mesh, or create and cache them if not yet initialized." alt="" coords="494,136,674,177"/>
+<area shape="rect" id="node8" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#acb06e770b36d60cbd0fef677704766d4" title="Copy values in a UV channel to uvs." alt="" coords="494,201,674,243"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a22325d02ae395b43a073c458cab49191" title="Check if the mesh contains the requested arrays." alt="" coords="761,136,941,177"/>
+<area shape="rect" id="node10" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#afa107be8165b2617bc37cfac621ff533" title=" " alt="" coords="494,267,674,308"/>
+</map>

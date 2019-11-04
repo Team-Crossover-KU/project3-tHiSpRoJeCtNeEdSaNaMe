@@ -1,0 +1,9 @@
+<map id="UnityEngine.ProBuilder.ProBuilderMesh.Clear" name="UnityEngine.ProBuilder.ProBuilderMesh.Clear">
+<area shape="rect" id="node1" title="Reset all the attribute arrays on this object." alt="" coords="532,129,712,171"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a5682f16d2a437d48e3aac4aba3b07e60" title="Copy mesh data from another mesh to self." alt="" coords="283,5,463,47"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_mesh_operations_1_1_mesh_importer.html#a2a2b848a0885f7acd71d7bc248b32e7e" title="Import mesh data from a GameObject&#39;s MeshFilter.sharedMesh and MeshRenderer.sharedMaterials." alt="" coords="5,133,213,175"/>
+<area shape="rect" id="node4" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#afbc4c0fe774599faefb94488c4a53b56" title="Clear all mesh attributes and reinitialize with new positions and face collections." alt="" coords="261,122,484,178"/>
+<area shape="rect" id="node5" href="$class_unity_engine_1_1_pro_builder_1_1_bezier_shape.html#a73943b17ed8aea3fed2967c9ecc845f6" title="Rebuild the ProBuilderMesh with the extruded spline." alt="" coords="274,203,471,244"/>
+<area shape="rect" id="node6" href="$class_unity_engine_1_1_pro_builder_1_1_pro_builder_mesh.html#a94b394d305bafab9d31f7a064f3a94ef" title="Set the vertex element arrays on this mesh." alt="" coords="283,268,463,309"/>
+<area shape="rect" id="node7" href="$class_unity_engine_1_1_pro_builder_1_1_face_rebuild_data.html#ab6340044450ee9c7f83b0c61f8bc7179" title=" " alt="" coords="15,268,204,309"/>
+</map>

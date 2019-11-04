@@ -1,0 +1,5 @@
+<map id="UnityEngine.ProBuilder.Vertex.operator*" name="UnityEngine.ProBuilder.Vertex.operator*">
+<area shape="rect" id="node1" title="Multiplication is performed component&#45;wise for every property." alt="" coords="5,37,260,63"/>
+<area shape="rect" id="node2" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a4f0f305270781ea36f16914cac3083d7" title="Multiplication is performed component&#45;wise for every property." alt="" coords="308,29,511,71"/>
+<area shape="rect" id="node3" href="$class_unity_engine_1_1_pro_builder_1_1_vertex.html#a7d99cad2529c7b7e1736a7c39932fe66" title="Initialize a Vertex with no values." alt="" coords="559,29,761,71"/>
+</map>
