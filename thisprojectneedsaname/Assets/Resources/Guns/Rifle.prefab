@@ -106,26 +106,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NUM_PARTS: 8
-  baseDamage: 0
-  baseSetsPerFire: 0
-  baseShotsPerSet: 0
-  basePrecision: 0
-  baseFireRate: 0
-  baseRecoil: 0
-  baseCapacity: 0
-  baseLoadedAmmoCount: 0
-  baseReload: 0
-  baseVelocity: 0
-  damage: 0
-  setsPerFire: 0
-  shotsPerSet: 0
-  precision: 0
-  fireRate: 0
-  recoil: 0
-  capacity: 0
-  loadedAmmoCount: 0
+  baseDamage: 30
+  baseSetsPerFire: 1
+  baseShotsPerSet: 1
+  basePrecision: 1
+  baseFireRate: 300
+  baseRecoil: 3
+  baseCapacity: 300
+  baseLoadedAmmoCount: 3
+  baseReload: 3
+  baseVelocity: 50
+  damage: 3
+  setsPerFire: 3
+  shotsPerSet: 3
+  precision: 3
+  fireRate: 3
+  recoil: 3
+  capacity: 3
+  loadedAmmoCount: 300
   reload: 0
-  velocity: 0
+  velocity: 20
   parts: []
   title: default
   baseFireDelay: 3000
@@ -138,3 +138,4 @@ MonoBehaviour:
   sight: {fileID: 0}
   stock: {fileID: 0}
   underBarrel: {fileID: 0}
+  fireDamage: 0

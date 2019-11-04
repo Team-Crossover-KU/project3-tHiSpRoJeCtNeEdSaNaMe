@@ -5,7 +5,7 @@ using UnityEngine;
 public class ProjectileController : MonoBehaviour
 {
     public int lifeTime;
-    public int damage;
+    public float damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +36,7 @@ public class ProjectileController : MonoBehaviour
         lifeTime = newLife;
     }
 
-    public void SetDamage(int newDamage)
+    public void SetDamage(float newDamage)
     {
         damage = newDamage;
     }
