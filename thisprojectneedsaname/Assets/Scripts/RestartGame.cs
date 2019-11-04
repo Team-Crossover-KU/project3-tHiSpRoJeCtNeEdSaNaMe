@@ -12,16 +12,15 @@ public class RestartGame : MonoBehaviour
 {
     public UnityEngine.UI.Button button;
 
-    // Start is called before the first frame update
+    /**
+    * @pre Start is called before the first frame update.
+    * @post Event listener is added to button.
+    * @param None.
+    * @return None.
+    */
     void Start()
     {
         button.onClick.AddListener(Restart);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     /**
