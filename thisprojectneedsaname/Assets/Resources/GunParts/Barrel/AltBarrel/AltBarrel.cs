@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class AltBarrel : Barrel
 {
-    public int shotsPerSetMod = 30;
-    public int setsPerFireMod = 20;
+    public int shotsPerSetMod = 3;
+    public int setsPerFireMod = 2;
+    public float rateOfFireMod = .4f;
+    public float precisionMod = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -27,5 +29,15 @@ public class AltBarrel : Barrel
     public override int GetShotsPerSetModifier()
     {
         return shotsPerSetMod;
+    }
+
+    public override float GetFireRateMod()
+    {
+        return rateOfFireMod;
+    }
+
+    public override float GetPrecisionMod()
+    {
+        return precisionMod;
     }
 }

@@ -13,7 +13,8 @@ public class RifleScript : Receiver
     public Sight sight;
     public Stock stock;
     public UnderBarrel underBarrel;
-   
+    public int fireDamage;
+
 
     // Start is called before the first frame update
     public override void Start()
@@ -31,13 +32,26 @@ public class RifleScript : Receiver
 
     public override bool Fire(Vector3 positon, Quaternion angle)
     {
-        if (loadedAmmoCount > 0 && fireDelay == 0)
+        if (fireDelay == 0)
         {
-            loadedAmmoCount--;
-            ammo.Fire(new Vector3(0, 0, velocity), positon, angle, precision);
-            fireDelay = baseFireDelay;
-            return true;
+            fireDamage = (int)damage / shotsPerSet;
+            for (int i = 0; setsPerFire > i; i++)
+            {
+                for (int j = 0; shotsPerSet > j; j++)
+                {
+                    if (loadedAmmoCount > 0)
+                    {
+                        ammo.Fire(new Vector3(0, 0, velocity), positon, angle, precision,fireDamage);
+                        fireDelay = baseFireDelay;
+                    }
+                    
+                }
+                loadedAmmoCount--;
+            }
+           
+                return true;
         }
+        
         else
         {
             return false;

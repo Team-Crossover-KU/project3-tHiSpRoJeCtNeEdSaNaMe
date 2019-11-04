@@ -16,5 +16,5 @@ public abstract class AmmoType : GunPart
         
     }
 
-    public abstract void Fire(Vector3 newVelocity, Vector3 Pos, Quaternion angle, float spread);
+    public abstract void Fire(Vector3 newVelocity, Vector3 Pos, Quaternion angle, float spread, float newDamage);
 }

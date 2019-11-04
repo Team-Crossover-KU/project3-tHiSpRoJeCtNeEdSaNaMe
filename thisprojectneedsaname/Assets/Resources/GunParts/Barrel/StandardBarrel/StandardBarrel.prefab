@@ -43,3 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f478d919fd401a4a88cd82041a86d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shotsPerSetMod: 1
+  setsPerFireMod: 1
