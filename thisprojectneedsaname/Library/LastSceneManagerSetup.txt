@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GunTest.unity
+- path: Assets/Scenes/BattleMapMix.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
