@@ -1,3 +1,44 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classdescription.html" title=" " alt="" coords="5,5,91,32"/>
+<area shape="rect" id="node1" href="$class_player_controller.html" title=" " alt="" coords="5,588,120,615"/>
+<area shape="rect" id="node2" href="$class_character.html" title=" " alt="" coords="194,233,273,260"/>
+<area shape="rect" id="node3" href="$class_door1_collision.html" title=" " alt="" coords="181,284,286,311"/>
+<area shape="rect" id="node4" href="$class_enemy_nav.html" title="Class responsible for AI follow directly from spawn points." alt="" coords="191,335,275,361"/>
+<area shape="rect" id="node5" href="$class_floor.html" title=" " alt="" coords="208,385,259,412"/>
+<area shape="rect" id="node6" href="$class_gun_part.html" title=" " alt="" coords="198,436,269,463"/>
+<area shape="rect" id="node31" href="$class_leve_l_manager.html" title=" " alt="" coords="181,487,286,513"/>
+<area shape="rect" id="node32" href="$class_player_nav.html" title=" " alt="" coords="193,537,273,564"/>
+<area shape="rect" id="node33" href="$class_player_spawn.html" title=" " alt="" coords="184,588,283,615"/>
+<area shape="rect" id="node34" href="$class_projectile_controller.html" title=" " alt="" coords="168,639,299,665"/>
+<area shape="rect" id="node35" href="$class_receiver.html" title=" " alt="" coords="198,689,269,716"/>
+<area shape="rect" id="node37" href="$class_restart_game.html" title=" " alt="" coords="184,740,283,767"/>
+<area shape="rect" id="node38" href="$class_r_floor1.html" title=" " alt="" coords="200,791,267,817"/>
+<area shape="rect" id="node39" href="$class_r_floor2.html" title=" " alt="" coords="200,841,267,868"/>
+<area shape="rect" id="node40" href="$class_r_floor3.html" title=" " alt="" coords="200,892,267,919"/>
+<area shape="rect" id="node41" href="$class_r_floor4.html" title=" " alt="" coords="200,943,267,969"/>
+<area shape="rect" id="node42" href="$class_spawn_loot.html" title=" " alt="" coords="190,993,277,1020"/>
+<area shape="rect" id="node7" href="$class_ammo_type.html" title=" " alt="" coords="354,56,442,83"/>
+<area shape="rect" id="node10" href="$class_barrel.html" title=" " alt="" coords="370,157,426,184"/>
+<area shape="rect" id="node13" href="$class_caliber.html" title=" " alt="" coords="367,259,429,285"/>
+<area shape="rect" id="node16" href="$class_cyclic_modifier.html" title=" " alt="" coords="347,360,449,387"/>
+<area shape="rect" id="node19" href="$class_magazine.html" title=" " alt="" coords="359,436,437,463"/>
+<area shape="rect" id="node22" href="$class_sight.html" title=" " alt="" coords="372,512,424,539"/>
+<area shape="rect" id="node25" href="$class_stock.html" title=" " alt="" coords="370,613,426,640"/>
+<area shape="rect" id="node28" href="$class_under_barrel.html" title=" " alt="" coords="353,689,443,716"/>
+<area shape="rect" id="node8" href="$class_alt_projectile.html" title=" " alt="" coords="515,5,607,32"/>
+<area shape="rect" id="node9" href="$class_standard_projectile.html" title=" " alt="" coords="497,56,625,83"/>
+<area shape="rect" id="node11" href="$class_alt_barrel.html" title=" " alt="" coords="525,107,597,133"/>
+<area shape="rect" id="node12" href="$class_standard_barrel.html" title=" " alt="" coords="507,157,615,184"/>
+<area shape="rect" id="node14" href="$class_alt_caliber.html" title=" " alt="" coords="522,208,601,235"/>
+<area shape="rect" id="node15" href="$class_standard_caliber.html" title=" " alt="" coords="504,259,619,285"/>
+<area shape="rect" id="node17" href="$class_charge_shot.html" title=" " alt="" coords="516,309,607,336"/>
+<area shape="rect" id="node18" href="$class_full_auto.html" title=" " alt="" coords="526,360,597,387"/>
+<area shape="rect" id="node20" href="$class_alt_mag.html" title=" " alt="" coords="530,411,593,437"/>
+<area shape="rect" id="node21" href="$class_standard_mag.html" title=" " alt="" coords="512,461,611,488"/>
+<area shape="rect" id="node23" href="$class_alt_sight.html" title=" " alt="" coords="527,512,595,539"/>
+<area shape="rect" id="node24" href="$class_standard_sight.html" title=" " alt="" coords="509,563,613,589"/>
+<area shape="rect" id="node26" href="$class_alt_stock.html" title=" " alt="" coords="525,613,597,640"/>
+<area shape="rect" id="node27" href="$class_standard_stock.html" title=" " alt="" coords="507,664,615,691"/>
+<area shape="rect" id="node29" href="$class_fore_grip.html" title=" " alt="" coords="525,715,597,741"/>
+<area shape="rect" id="node30" href="$class_grenade_launcher.html" title=" " alt="" coords="499,765,623,792"/>
+<area shape="rect" id="node36" href="$class_rifle_script.html" title=" " alt="" coords="357,740,439,767"/>
 </map>

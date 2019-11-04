@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['jumpforce_6548',['jumpForce',['../class_player_controller.html#a7c109871eba0057fd2aa1856522a346d',1,'PlayerController']]],
-  ['jumpheld_6549',['jumpHeld',['../class_player_controller.html#a717ce081b42111fc74c77e10368d2bfb',1,'PlayerController']]]
+  ['lifetime_468',['lifeTime',['../class_projectile_controller.html#a6ba1e10809328ea4eae12cd8dc4f94e8',1,'ProjectileController']]],
+  ['loadedammocount_469',['loadedAmmoCount',['../class_receiver.html#a94268134bb821727daac33a919b7e9b5',1,'Receiver']]]
 ];

@@ -1,28 +1,5 @@
 var searchData=
 [
-  ['id_6523',['id',['../class_t_m_pro_1_1_t_m_p___text_element___legacy.html#a4d8b41e1999a5ba77761a861a759cbdd',1,'TMPro::TMP_TextElement_Legacy']]],
-  ['iframes_6524',['iFrames',['../class_player_controller.html#ae1bf2447448218eab5fac50973fa32f9',1,'PlayerController']]],
-  ['imageon_6525',['imageOn',['../class_unity_editor_1_1_pro_grids_1_1_toggle_content.html#a47aa7973388677e5fffebb11d5779483',1,'UnityEditor::ProGrids::ToggleContent']]],
-  ['includefontfeatures_6526',['includeFontFeatures',['../struct_t_m_pro_1_1_font_asset_creation_settings.html#afe2a3e770cef27475e426bf6b3043d82',1,'TMPro::FontAssetCreationSettings']]],
-  ['indentstack_6527',['indentStack',['../struct_t_m_pro_1_1_word_wrap_state.html#a581d138eebed93584be317a8f743eaee',1,'TMPro::WordWrapState']]],
-  ['index_6528',['index',['../struct_t_m_pro_1_1_material_reference.html#af0e1e670567aeaa6b1b1bc67b41d4d3d',1,'TMPro.MaterialReference.index()'],['../struct_t_m_pro_1_1_t_m_p___character_info.html#a222c925b04b4b83be44869fc309660e6',1,'TMPro.TMP_CharacterInfo.index()'],['../struct_t_m_pro_1_1_caret_info.html#a5bee4920f331f386ab534fad1793ae0a',1,'TMPro.CaretInfo.index()'],['../class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_point.html#a751928d7d9cddeab923371393b4c6bb9',1,'UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint.Index()']]],
-  ['indexes_6529',['indexes',['../class_unity_engine_1_1_pro_builder_1_1_experimental_1_1_c_s_g_1_1_c_s_g___model.html#a696c801123615e9840554ac99fd3fb2e',1,'UnityEngine::ProBuilder::Experimental::CSG::CSG_Model']]],
-  ['inputfield_6530',['inputField',['../struct_t_m_pro_1_1_t_m_p___default_controls_1_1_resources.html#a2161db724e3fd4dc488e91fb4f44f099',1,'TMPro::TMP_DefaultControls::Resources']]],
-  ['inserted_5findex_6531',['INSERTED_INDEX',['../class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_point.html#a0c137cb16543035f57985370c78887e9',1,'UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint']]],
-  ['installations_6532',['Installations',['../class_packages_1_1_rider_1_1_editor_1_1_rider_script_editor.html#ac447c3036b762b58e71df2e706166a86',1,'Packages.Rider.Editor.RiderScriptEditor.Installations()'],['../class_v_s_code_editor_1_1_v_s_code_script_editor.html#abbc9572edd7cea2c3c414c5e56489aeb',1,'VSCodeEditor.VSCodeScriptEditor.Installations()']]],
-  ['instance_6533',['instance',['../class_unity_editor_1_1_pro_builder_1_1_u_v_editor.html#af0a0cc9078b0c36d81500acdc6da7228',1,'UnityEditor::ProBuilder::UVEditor']]],
-  ['invalid_5findex_6534',['INVALID_INDEX',['../class_unity_engine_1_1_pro_builder_1_1_poly2_tri_1_1_triangulation_point.html#a624cee2821af1ff9b52ee6970497cdeb',1,'UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint']]],
-  ['invulnerabilitytime_6535',['invulnerabilityTime',['../class_simple_health_bar___spaceship_example_1_1_player_health.html#a42971d98e9071b84a48234ac9e20b38a',1,'SimpleHealthBar_SpaceshipExample::PlayerHealth']]],
-  ['isdebris_6536',['isDebris',['../class_simple_health_bar___spaceship_example_1_1_asteroid_controller.html#a5c10d227d73821da8b835d78e4778c40',1,'SimpleHealthBar_SpaceshipExample::AsteroidController']]],
-  ['isdefaultmaterial_6537',['isDefaultMaterial',['../struct_t_m_pro_1_1_material_reference.html#ab986ec897bc828a682be0bc9d254e0a5',1,'TMPro::MaterialReference']]],
-  ['isfallbackmaterial_6538',['isFallbackMaterial',['../struct_t_m_pro_1_1_material_reference.html#ae529e7d956ccdd30cb246eab15ffe15b',1,'TMPro::MaterialReference']]],
-  ['isnonbreakingspace_6539',['isNonBreakingSpace',['../struct_t_m_pro_1_1_word_wrap_state.html#a40e1610933cb2b7b185d22ae69ee40c6',1,'TMPro::WordWrapState']]],
-  ['isrighthanded_6540',['isRightHanded',['../class_unity_editor_1_1_pro_builder_1_1_ply_options.html#a8aa0d8fec6aa7d3d74f523f381033f7e',1,'UnityEditor::ProBuilder::PlyOptions']]],
-  ['isselected_6541',['isSelected',['../class_t_m_pro_1_1_t_m_p___scrollbar_event_handler.html#a32cdf09d2c7ad284a60debb41a35600d',1,'TMPro::TMP_ScrollbarEventHandler']]],
-  ['isusingalternatetypeface_6542',['isUsingAlternateTypeface',['../struct_t_m_pro_1_1_t_m_p___character_info.html#ab3e0dca9311fe6298de253b8ee1c456f',1,'TMPro::TMP_CharacterInfo']]],
-  ['isvisible_6543',['isVisible',['../struct_t_m_pro_1_1_t_m_p___character_info.html#a9c79be41abefbe85ee0f4bc3d330ea4f',1,'TMPro::TMP_CharacterInfo']]],
-  ['italic_6544',['italic',['../struct_t_m_pro_1_1_t_m_p___font_style_stack.html#a7aee57e66e34302af12632b97736ef43',1,'TMPro::TMP_FontStyleStack']]],
-  ['italicstyle_6545',['italicStyle',['../class_t_m_pro_1_1_t_m_p___font_asset.html#aa444303f26f16cd2435a4dee25b9f9d5',1,'TMPro::TMP_FontAsset']]],
-  ['italictypeface_6546',['italicTypeface',['../struct_t_m_pro_1_1_t_m_p___font_weight_pair.html#aeaaebabf5710a63721b990b17ccd5f66',1,'TMPro::TMP_FontWeightPair']]],
-  ['item_6547',['Item',['../struct_unity_engine_1_1_pro_builder_1_1_kd_tree_1_1_item_priority.html#ae1a9cefe125c54fa002ac3561af0aa98',1,'UnityEngine::ProBuilder::KdTree::ItemPriority']]]
+  ['jumpforce_466',['jumpForce',['../class_player_controller.html#a7c109871eba0057fd2aa1856522a346d',1,'PlayerController']]],
+  ['jumpheld_467',['jumpHeld',['../class_player_controller.html#a717ce081b42111fc74c77e10368d2bfb',1,'PlayerController']]]
 ];

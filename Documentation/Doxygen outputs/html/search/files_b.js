@@ -1,21 +1,12 @@
 var searchData=
 [
-  ['levelmanager_2ecs_4815',['LeveLManager.cs',['../_leve_l_manager_8cs.html',1,'']]],
-  ['libcnativeinterop_2ecs_4816',['LibcNativeInterop.cs',['../_libc_native_interop_8cs.html',1,'']]],
-  ['license_2emd_4817',['LICENSE.md',['../com_8unity_8collab-proxy_0d2_80_80-preview_88_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8ext_8nunit_0d1_80_80_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8ide_8rider_0d1_81_80_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8ide_8vscode_0d1_81_82_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8probuilder_0d4_80_85_2_external_2_kd_tree_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8probuilder_0d4_80_85_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8progrids_0d3_80_83-preview_84_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8test-framework_0d1_80_813_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)'],['../com_8unity_8textmeshpro_0d2_80_81_2_l_i_c_e_n_s_e_8md.html',1,'(Global Namespace)']]],
-  ['licenseeditor_2ecs_4818',['LicenseEditor.cs',['../_license_editor_8cs.html',1,'']]],
-  ['lightmap_2duv_2emd_4819',['lightmap-uv.md',['../lightmap-uv_8md.html',1,'']]],
-  ['lightmapping_2ecs_4820',['Lightmapping.cs',['../_lightmapping_8cs.html',1,'']]],
-  ['lightmapuveditor_2ecs_4821',['LightmapUVEditor.cs',['../_lightmap_u_v_editor_8cs.html',1,'']]],
-  ['links_2emd_4822',['links.md',['../links_8md.html',1,'']]],
-  ['log_2ecs_4823',['Log.cs',['../_log_8cs.html',1,'']]],
-  ['logassert_2ecs_4824',['LogAssert.cs',['../_log_assert_8cs.html',1,'']]],
-  ['logeditor_2ecs_4825',['LogEditor.cs',['../_log_editor_8cs.html',1,'']]],
-  ['logevent_2ecs_4826',['LogEvent.cs',['../_log_event_8cs.html',1,'']]],
-  ['logginglevel_2ecs_4827',['LoggingLevel.cs',['../_logging_level_8cs.html',1,'']]],
-  ['logmatch_2ecs_4828',['LogMatch.cs',['../_log_match_8cs.html',1,'']]],
-  ['logsavingcallbacks_2ecs_4829',['LogSavingCallbacks.cs',['../_log_saving_callbacks_8cs.html',1,'']]],
-  ['logscope_2ecs_4830',['LogScope.cs',['../_log_scope_8cs.html',1,'']]],
-  ['logwriter_2ecs_4831',['LogWriter.cs',['../_log_writer_8cs.html',1,'']]],
-  ['luminplatformsetup_2ecs_4832',['LuminPlatformSetup.cs',['../_lumin_platform_setup_8cs.html',1,'']]]
+  ['sight_2ecs_331',['Sight.cs',['../_sight_8cs.html',1,'']]],
+  ['spawnloot_2ecs_332',['SpawnLoot.cs',['../_spawn_loot_8cs.html',1,'']]],
+  ['standardbarrel_2ecs_333',['StandardBarrel.cs',['../_standard_barrel_8cs.html',1,'']]],
+  ['standardcaliber_2ecs_334',['StandardCaliber.cs',['../_standard_caliber_8cs.html',1,'']]],
+  ['standardmag_2ecs_335',['StandardMag.cs',['../_standard_mag_8cs.html',1,'']]],
+  ['standardprojectile_2ecs_336',['StandardProjectile.cs',['../_standard_projectile_8cs.html',1,'']]],
+  ['standardsight_2ecs_337',['StandardSight.cs',['../_standard_sight_8cs.html',1,'']]],
+  ['standardstock_2ecs_338',['StandardStock.cs',['../_standard_stock_8cs.html',1,'']]],
+  ['stock_2ecs_339',['Stock.cs',['../_stock_8cs.html',1,'']]]
 ];
