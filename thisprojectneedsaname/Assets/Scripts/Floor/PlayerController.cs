@@ -24,12 +24,14 @@ public class PlayerController : Character
     private float selectWeaponForwardPrior = 0;
     private float selectPrior = 0;
     private float submitPrior = 0;
+    private float reloadPrior = 0;
     public int rightLeftHeld = 0;
     public int forwardBackHeld = 0;
     public int jumpHeld = 0;
     public int fireHeld = 0;
     public int altFireHeld = 0;
     public int aimHeld = 0;
+    public int reloadHeld = 0;
     public int selectWeaponBackHeld = 0;
     public int selectWeaponForwardHeld = 0;
     public int selectHeld = 0;
@@ -40,6 +42,7 @@ public class PlayerController : Character
     public bool holdFire = false;
     public bool holdAltFire = false;
     public bool holdADS = false;
+    public bool holdReload = false;
     public bool attacking = false;
     public bool cancelable = true;
 
@@ -278,6 +281,11 @@ public class PlayerController : Character
                 equipedWeapon.ADS();
             }
 
+            if (Input.GetAxisRaw("Reload") == 1 && reloadHeld == 0)
+            {
+                equipedWeapon.ReloadMag();
+            }
+
 
         }
         
@@ -423,6 +431,15 @@ public class PlayerController : Character
             altFireHeld = 0;
         }
 
+        if (reloadPrior == Input.GetAxisRaw("Reload") && reloadPrior != 0)
+        {
+            reloadHeld = reloadHeld + 1;
+        }
+        else
+        {
+            reloadHeld = 0;
+        }
+
         if (aimPrior == Input.GetAxisRaw("ADS") && aimPrior != 0)
         {
             aimHeld = aimHeld + 1;
@@ -474,6 +491,7 @@ public class PlayerController : Character
         firePrior = Input.GetAxisRaw("Fire");
         altFirePrior = Input.GetAxisRaw("AltFire");
         aimPrior = Input.GetAxisRaw("ADS");
+        reloadPrior = Input.GetAxisRaw("Reload");
         selectWeaponBackPrior = Input.GetAxisRaw("SelectWeaponBack");
         selectWeaponForwardPrior = Input.GetAxisRaw("SelectWeaponForward");
         selectPrior = Input.GetAxisRaw("Select");
